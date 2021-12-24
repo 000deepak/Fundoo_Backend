@@ -1,41 +1,28 @@
 //imports
-let express = require('express');
-let mongoose = require('mongoose');
-
-const model = require("./model");
-const User = model.User;
-
-let router = require('./router');
+let express = require("express");
+let mongoose = require("mongoose");
+let router = require("../Router/router");
 
 //create
-let app = express()
+let app = express();
 
 //using json
-app.use(express.json())
-
-//compare password test
-// const test = async (email,password)=>{
-// const user = await User.findOne({email:email});
-// console.log(user);
-// const result = await user.comparePassword(password);
-// console.log(result);
-// }
-
-// test('email','123');
-
-
+app.use(express.json());
 
 //link Route
-app.use('/',router);
+app.use("/", router);
 
 //listen app
-app.listen(2000,()=>{
-    console.log('listening');
+app.listen(2000, () => {
+  console.log("listening");
 });
 
 //connect moongoose to db
-mongoose.connect('mongodb://localhost:27017/FundooDb',(error)=>
-{
-    if(error) console.log('connection error')
-    else console.log('connection succesfull')
+mongoose.connect("mongodb://localhost:27017/NotesApp", (error) => {
+  if (error) console.log("connection error");
+  else console.log("connection succesfull");
 });
+
+// 1.import all files and libs
+// 2.start nodejs => user express.json => link ROute => listen app
+// 3.connect to db with mongoose
