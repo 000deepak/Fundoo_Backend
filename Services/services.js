@@ -1,5 +1,6 @@
 //imports
 const model = require("../Model/model");
+const bcrypt = require("bcrypt");
 
 //create
 const modelInstance = new model.ModelClass();
@@ -21,8 +22,17 @@ class ServiceClass {
       password: obj.password,
     });
 
-    let userSaved = modelInstance.registerModel(newUser); //pass data to model  and get status.
-    return userSaved; //return status
+    return new Promise((resolve, reject) => {
+      bcrypt.hash(newUser.password, 8).then((hash) => {
+        newUser.password = hash;
+        modelInstance.registerModel(newUser).then((userSaved) => {
+          resolve(userSaved);
+        });
+      });
+    });
+
+    //pass data to model  and get status.
+    //return status
   }
 
   //get all users
@@ -34,12 +44,19 @@ class ServiceClass {
   }
 
   //login service
-  async loginService(req) {
-    const user = await modelInstance.loginModel(req);
-    const match = await bcrypt.compare(req.password, user.password);
-    if (match) {
-      console.log("logged in successfully");
-    }
+  loginService(req) {
+    return new Promise((resolve, reject) => {
+      modelInstance.loginModel(req).then((user) => {
+        //console.log(user);
+        if (!user) resolve("email is not registerd,please register and login");
+        else {
+          bcrypt.compare(req.body.password, user.password).then((result) => {
+            if (result) resolve("logged in successfully", result);
+            else resolve("invalid Password");
+          });
+        }
+      });
+    });
   }
 
   //put Service
@@ -58,7 +75,7 @@ class ServiceClass {
   deleteService(req) {
     return new Promise((resolve, reject) => {
       console.log(req.params.id);
-      
+
       userDb.findByIdAndDelete(req.params.id).then((result) => {
         console.log(result);
         resolve("user deleted");

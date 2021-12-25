@@ -8,7 +8,7 @@ let router = express.Router();
 
 //link router
 router.post("/register", controller.registerControl);
-//router.get("/login", controller.loginControl);
+router.post("/login", controller.loginControl);
 router.get("/get", controller.getController); 
 router.put("/crud/:id",controller.putController);
 router.delete("/crud/:id",controller.deleteController);

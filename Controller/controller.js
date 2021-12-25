@@ -3,7 +3,6 @@ let service = require("../Services/services");
 
 //control class
 class RegisterClass {
-
   //register user
   registerControl(req, res) {
     service
@@ -30,10 +29,12 @@ class RegisterClass {
 
   //get user by id
   loginControl(req, res) {
-    service.loginService(req.body);
+    service.loginService(req).then((result) => {
+      console.log(result);
+    });
   }
 
-  //update it.
+  //update user by id.
   putController(req, res) {
     service.putService(req).then((result) => {
       console.log(result);
@@ -46,10 +47,6 @@ class RegisterClass {
       console.log(result);
     });
   }
-
-
-
-
 }
 //exports
 module.exports = new RegisterClass();

@@ -60,7 +60,7 @@ class ModelClass {
       let user = User.findOne({email: req.body.email});
       resolve(user);
     }).catch((err)=>{
-      console.log(err)
+      resolve("Error")
     })
   }
 }
