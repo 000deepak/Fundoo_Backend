@@ -46,7 +46,71 @@ function () {
         var result = userDb.find();
         resolve(result);
       });
-    }
+    } //login service
+
+  }, {
+    key: "loginService",
+    value: function loginService(req) {
+      var user, match;
+      return regeneratorRuntime.async(function loginService$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return regeneratorRuntime.awrap(modelInstance.loginModel(req));
+
+            case 2:
+              user = _context.sent;
+              _context.next = 5;
+              return regeneratorRuntime.awrap(bcrypt.compare(req.password, user.password));
+
+            case 5:
+              match = _context.sent;
+
+              if (match) {
+                console.log("logged in successfully");
+              }
+
+            case 7:
+            case "end":
+              return _context.stop();
+          }
+        }
+      });
+    } //put Service
+
+  }, {
+    key: "putService",
+    value: function putService(req) {
+      return new Promise(function (resolve, reject) {
+        //what we have to update
+        var user = userDb.findOne({
+          fName: req.body.fName
+        });
+        console.log(user);
+        var lName = userDb({
+          lName: req.body.lName
+        });
+        lName.save();
+        resolve("data updated successfully using put");
+      });
+    } //put Service
+
+    /*     putService(req) {
+        return new Promise((resolve, reject) => {
+          const toUpdate = req.body;                 //what we have to update
+          userDb.findById(id, (err, data) => {
+            if (err) throw err;
+            data = toUpdate? toUpdate: data;
+            //req lName is present then it is updated if not then it is reassigned its old value only
+            data.save((err, res) => {
+              if (err) throw err;
+              resolve("data updated successfully using put");
+            });
+          });
+        });
+      } */
+
   }]);
 
   return ServiceClass;

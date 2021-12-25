@@ -13,15 +13,21 @@ app.use(express.json());
 app.use("/", router);
 
 //listen app
-app.listen(2000, () => {
+app.listen(9000, () => {
   console.log("listening");
 });
 
 //connect moongoose to db
-mongoose.connect("mongodb://localhost:27017/NotesApp", (error) => {
+mongoose.connect("mongodb://localhost:27017/FundooDb", (error) => {
   if (error) console.log("connection error");
   else console.log("connection succesfull");
 });
+
+//connect moongoose to db
+/* mongoose.connect("mongodb://localhost:27017/FundooDb", (error) => {
+  if (error) console.log("connection error");
+  else console.log("connection succesfull");
+}); */
 
 // 1.import all files and libs
 // 2.start nodejs => user express.json => link ROute => listen app

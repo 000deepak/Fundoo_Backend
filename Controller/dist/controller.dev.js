@@ -7,8 +7,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 //imports
-var service = require("../Services/services"); //service class is exported as reference(object) so we can use it directly to access methods.
-//control class
+var service = require("../Services/services"); //control class
 
 
 var RegisterClass =
@@ -21,15 +20,13 @@ function () {
   _createClass(RegisterClass, [{
     key: "registerControl",
     value: function registerControl(req, res) {
-      //when "/register" is hit this method is called and "req"(data) is passesd.
       service.registerService(req.body).then(function (result) {
-        //then is run after returning promise.
         console.log("inside controller ,successful ", result);
       })["catch"](function (err) {
-        //catch is run if we get error for promise return
         console.log("inside controller ,failed", err);
       });
-    }
+    } //get all users
+
   }, {
     key: "getController",
     value: function getController(req, res) {
@@ -38,7 +35,23 @@ function () {
       })["catch"](function (err) {
         console.log("inside controller ,failed", err);
       });
-    }
+    } //get user by id
+
+  }, {
+    key: "loginControl",
+    value: function loginControl(req, res) {
+      service.loginService(req.body);
+    } //put(update) we have to provide all the details of user to update if it is not present then it creates it.
+
+  }, {
+    key: "putController",
+    value: function putController(req, res) {
+      console.log(req.body);
+      service.putService(req).then(function (result) {
+        console.log(result);
+      });
+    } //patch ,patch is related to location ,so just provide id and update
+
   }]);
 
   return RegisterClass;
@@ -46,4 +59,5 @@ function () {
 
 
 module.exports = new RegisterClass(); //1.import service
-//2.
+//2.forwading operation
+//3.export controller

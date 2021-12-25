@@ -62,6 +62,18 @@ function () {
         });
       });
     }
+  }, {
+    key: "loginModel",
+    value: function loginModel(req) {
+      return new Promise(function (resolve, response) {
+        var user = User.findOne({
+          email: req.body.email
+        });
+        resolve(user);
+      })["catch"](function (err) {
+        console.log(err);
+      });
+    }
   }]);
 
   return ModelClass;

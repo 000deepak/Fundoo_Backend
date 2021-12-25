@@ -32,7 +32,41 @@ class ServiceClass {
       resolve(result);
     });
   }
+
+  //login service
+  async loginService(req) {
+    const user = await modelInstance.loginModel(req);
+    const match = await bcrypt.compare(req.password, user.password);
+    if (match) {
+      console.log("logged in successfully");
+    }
+  }
+
+  //put Service
+  putService(req) {
+    return new Promise((resolve, reject) => {
+      //what we have to update
+      console.log(req.params.id);
+      const user = userDb.findByIdAndUpdate(req.params.id, req.body, {
+        new: true,
+      });
+      resolve(user);
+    });
+  }
+
+  //Delete Service
+  deleteService(req) {
+    return new Promise((resolve, reject) => {
+      console.log(req.params.id);
+      
+      userDb.findByIdAndDelete(req.params.id).then((result) => {
+        console.log(result);
+        resolve("user deleted");
+      });
+    });
+  }
 }
+
 //exports
 module.exports = new ServiceClass();
 //here we are not exporting class but exporting its reference or object.

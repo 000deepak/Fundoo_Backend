@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema(
       type: String,
     },
     email: {
-      type: String,
+      type: String, 
     },
     password: {
       type: String,
@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema(
   {
     timestamps: true,
   }
-);
+); 
 
 const User = mongoose.model("FundooDb", userSchema);
 //exporting this user as shown at end  and create the same user using fileName.exportedUser(model.user)
@@ -52,6 +52,16 @@ class ModelClass {
           reject({ response });
         });
     });
+  }
+
+
+  loginModel(req){
+    return new Promise((resolve,response)=>{
+      let user = User.findOne({email: req.body.email});
+      resolve(user);
+    }).catch((err)=>{
+      console.log(err)
+    })
   }
 }
 
