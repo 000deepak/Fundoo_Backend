@@ -6,12 +6,14 @@ class RegisterClass {
   //register user
   registerControl(req, res) {
     service
-      .registerService(req.body)
+      .registerService(req)
       .then((result) => {
-        console.log("inside controller ,successful ", result);
+        console.log("inside controller ,successful ",result);
+        res.send(result)
       })
       .catch((err) => {
         console.log("inside controller ,failed", err);
+        res.send(err);
       });
   }
 
@@ -31,6 +33,7 @@ class RegisterClass {
   loginControl(req, res) {
     service.loginService(req).then((result) => {
       console.log(result);
+      res.send(result);
     });
   }
 

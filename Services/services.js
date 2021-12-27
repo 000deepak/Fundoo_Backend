@@ -1,38 +1,38 @@
 //imports
 const model = require("../Model/model");
-const bcrypt = require("bcrypt");
+
 
 //create
-const modelInstance = new model.ModelClass();
+const userModel = new model.ModelClass();
 //Here ModelClass is not exported as reference(object) but as class so again we have to create a object.
 //we create new object of model class model instance to access its method(registerModel)
 
-const userDb = model.User;
+const userDb = model.userDb;
 //we create userDb variable to store database details(Schema,name) to use further.
 //we can access the db details by using pathVariable(here model).ExportedValue(here user)
 
 class ServiceClass {
   //register user
-  registerService(obj) {
-    let newUser = new userDb({
-      //extract data from object
-      fName: obj.fName,
-      lName: obj.lName,
-      email: obj.email,
-      password: obj.password,
-    });
+  async registerService(req) {
+    let foundUser = await userModel.findUser(req.body);
+    let len = foundUser.data.length;
 
-    return new Promise((resolve, reject) => {
-      bcrypt.hash(newUser.password, 8).then((hash) => {
-        newUser.password = hash;
-        modelInstance.registerModel(newUser).then((userSaved) => {
-          resolve(userSaved);
-        });
+    if (len == 0) {
+      let newUser = new userDb({
+        fName: req.body.fName,
+        lName: req.body.lName,
+        email: req.body.email,
+        password: req.body.password,
       });
-    });
 
-    //pass data to model  and get status.
-    //return status
+      let hash = await bcrypt.hash(newUser.password, 8);
+      newUser.password = hash;
+      let savedData = await userModel.registerModel(newUser);
+
+      return savedData;
+    } else {
+      return foundUser;
+    }
   }
 
   //get all users
@@ -46,15 +46,8 @@ class ServiceClass {
   //login service
   loginService(req) {
     return new Promise((resolve, reject) => {
-      modelInstance.loginModel(req).then((user) => {
-        //console.log(user);
-        if (!user) resolve("email is not registerd,please register and login");
-        else {
-          bcrypt.compare(req.body.password, user.password).then((result) => {
-            if (result) resolve("logged in successfully", result);
-            else resolve("invalid Password");
-          });
-        }
+      userModel.loginModel(req).then((response) => {
+        resolve(response);
       });
     });
   }

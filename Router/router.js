@@ -1,14 +1,17 @@
 //import
 let express = require("express");
 let controller = require("../Controller/controller");
+
+const { validate } = require("../middleWare/UserValidation");
+
 const notesCon = require("../NotesController/NotesController");
 
 //create router
 let router = express.Router();
 
 //link router
-router.post("/register", controller.registerControl);
-router.post("/login", controller.loginControl);
+router.post("/register",validate, controller.registerControl);
+router.get("/login", controller.loginControl);
 router.get("/get", controller.getController); 
 router.put("/crud/:id",controller.putController);
 router.delete("/crud/:id",controller.deleteController);

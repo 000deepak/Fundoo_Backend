@@ -1,5 +1,6 @@
 //imports
 const mongoose = require("mongoose");
+const bcrypt = require("bcrypt");
 
 //db Schema
 const userSchema = new mongoose.Schema(
@@ -11,7 +12,7 @@ const userSchema = new mongoose.Schema(
       type: String,
     },
     email: {
-      type: String, 
+      type: String,
     },
     password: {
       type: String,
@@ -20,50 +21,117 @@ const userSchema = new mongoose.Schema(
   {
     timestamps: true,
   }
-); 
+);
 
-const User = mongoose.model("FundooDb", userSchema);
+const userDb = mongoose.model("FundooDb", userSchema);
 //exporting this user as shown at end  and create the same user using fileName.exportedUser(model.user)
 
 //model class
-
 class ModelClass {
+
+  
+  findUser(req) {
+    let response = {
+      message: "",
+      data: "",
+      success: "",
+      status: 200,
+    };
+
+    return new Promise((resolve, reject) => {
+      userDb
+        .find({ email: req.email })
+        .then((data) => {
+          if (data.length > 0) {
+            (response.success = true),
+              (response.data = data),
+              (response.status = 422),
+              (response.message = "user  already exists");
+            resolve(response);
+          } else {
+            resolve({
+              message: "user not found please register first",
+              data: data,
+              status: 200,
+            });
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+          reject({ success: false, error: err });
+        });
+    });
+  }
+
   registerModel(req) {
+    
+    let response = {
+      success: true,
+      message: "",
+      data: "",
+      status: 200,
+    };
+
+    return new Promise((resolve, reject) => {
+      req
+        .save()
+        .then((data) => {
+          (response.success = true),
+            (response.message = " Registered Succesfully"),
+            (response.data = data),
+            (response.status = 200);
+          resolve(response);
+        })
+        .catch((err) => {
+          (response.success = false),
+            (response.message = " Registered Failed"),
+            (response.data = ""),
+            (response.status = 500);
+          reject(response);
+        });
+    });
+
+  }
+
+  
+  loginModel(req) {
     let response = {
       success: true,
       message: "",
       data: "",
     };
+    return new Promise((resolve, response) => {
+      userDb.findOne({ email: req.body.email }).then((user) => {
+        console.log(user);
 
-    return new Promise((resolve, reject) => {
-      req
-        .save() //save data to db
-        .then((data) => {
-          //return status and data
-          (response.success = true),
-            (response.message = "user registration SUCCESSFUL");
-          (response.data = data), (response.status = 200);
-          resolve({ response });
-        })
-        .catch((err) => {
+        if (!user) {
           (response.success = false),
-            (response.message = "user registration FAILED");
-          (response.data = data), (response.status = 200);
-          reject({ response });
-        });
+            (response.message =
+              "email is not registerd,please register and login");
+          (response.data = req.body), (response.status = 200);
+          resolve(response);
+        } else {
+          bcrypt.compare(req.body.password, user.password).then((result) => {
+            if (result) {
+              (response.success = true),
+                (response.message = "logged in successfull");
+              (response.data = req.body), (response.status = 200);
+              resolve(response);
+            } else {
+              (response.success = false),
+                (response.message = "Invalid Password,Please try again");
+              (response.data = req.body), (response.status = 200);
+              resolve(response);
+            }
+          });
+        }
+      });
     });
-  }
-
-
-  loginModel(req){
-    return new Promise((resolve,response)=>{
-      let user = User.findOne({email: req.body.email});
-      resolve(user);
-    }).catch((err)=>{
-      resolve("Error")
-    })
   }
 }
 
 //exports class with Schema & db names
-module.exports = { ModelClass, User };
+module.exports = { ModelClass, userDb };
+
+//find returns array
+//findOne returns object
