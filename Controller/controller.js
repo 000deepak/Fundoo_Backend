@@ -33,8 +33,10 @@ class RegisterClass {
   loginControl(req, res) {
     service.loginService(req).then((result) => {
       console.log(result);
-      res.send(result);
-    });
+      res.send(JSON.stringify(result));
+    }).catch((err)=>{
+      res.send(JSON.stringify(err))
+    })
   }
 
   //update user by id.

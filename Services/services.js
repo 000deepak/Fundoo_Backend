@@ -1,6 +1,7 @@
 //imports
 const model = require("../Model/model");
-
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken")
 
 //create
 const userModel = new model.ModelClass();
@@ -44,12 +45,52 @@ class ServiceClass {
   }
 
   //login service
-  loginService(req) {
-    return new Promise((resolve, reject) => {
-      userModel.loginModel(req).then((response) => {
-        resolve(response);
+  async loginService(req) {
+    let response = {
+      success: true,
+      message: "",
+      data: "",
+    };
+    let foundUser = await userModel.findUser(req.body);
+    ///console.log(foundUser)
+
+    if (foundUser.data.length > 0) {
+      return new Promise((resolve, reject) => {
+        bcrypt
+          .compare(req.body.password, foundUser.data[0].password)
+          .then((result) => {
+            if (result) {
+              let token = jwt.sign(
+                { email: foundUser.data[0].email },
+                "secret"
+              );
+              let obj = {
+                fName: foundUser.data[0].fName,
+                lName: foundUser.data[0].lName,
+                email: foundUser.data[0].email,
+                token: token,
+              };
+
+              (response.success = true),
+                (response.message = "logged in successfull");
+              (response.data = obj), (response.status = 200);
+              resolve(response);
+            } else {
+              (response.success = false),
+                (response.message = "Invalid Password,Please try again");
+              (response.data = ""), (response.status = 400);
+              resolve(response);
+            }
+          })
+          .catch((err) => {
+            console.log(err, "inside proise");
+            (response.success = false),
+              (response.message = "Invalid Password,Please try again");
+            (response.data = ""), (response.status = 400);
+            resolve(response);
+          });
       });
-    });
+    }
   }
 
   //put Service
