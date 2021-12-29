@@ -1,5 +1,5 @@
 //imports
-let service = require("../Services/services");
+let service = require("../Services/UserServices");
 
 //control class
 class RegisterClass {

@@ -8,7 +8,6 @@ console.log(process.env.PORT);
 let express = require("express");
 let mongoose = require("mongoose");
 let router = require("../Router/router");
-
 var expressValidator = require('express-validator');
 
 

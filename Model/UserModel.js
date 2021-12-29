@@ -23,7 +23,7 @@ const userSchema = new mongoose.Schema(
   }
 );
 
-const userDb = mongoose.model("FundooDb", userSchema);
+const userDb = mongoose.model("Users", userSchema);
 //exporting this user as shown at end  and create the same user using fileName.exportedUser(model.user)
 
 //model class

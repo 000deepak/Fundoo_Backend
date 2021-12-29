@@ -1,5 +1,5 @@
 //imports
-const model = require("../Model/model");
+const model = require("../Model/UserModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken")
 
@@ -56,17 +56,19 @@ class ServiceClass {
 
     if (foundUser.data.length > 0) {
       return new Promise((resolve, reject) => {
+        console.log( foundUser.data[0].email,foundUser.data[0].id , "tttttttttjjkj");
         bcrypt
           .compare(req.body.password, foundUser.data[0].password)
           .then((result) => {
             if (result) {
               let token = jwt.sign(
-                { email: foundUser.data[0].email },
+                { email: foundUser.data[0].email,id:foundUser.data[0].id },
                 "secret"
               );
               let obj = {
                 fName: foundUser.data[0].fName,
                 lName: foundUser.data[0].lName,
+                userId:foundUser.data[0]._id,
                 email: foundUser.data[0].email,
                 token: token,
               };
@@ -121,3 +123,5 @@ class ServiceClass {
 //exports
 module.exports = new ServiceClass();
 //here we are not exporting class but exporting its reference or object.
+//npm install -g express-api-cli
+//exp-api create projectname
