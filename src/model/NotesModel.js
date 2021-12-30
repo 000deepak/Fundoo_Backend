@@ -30,7 +30,7 @@ const NotesSchema = new mongoose.Schema(
 const NotesDb = mongoose.model("Notes", NotesSchema);
 
 class ModelClass {
-  //find all notes of user(userId)
+  //find all notes based on query
   findNotes(req) {
     let response = {
       message: "",
@@ -40,7 +40,7 @@ class ModelClass {
     };
 
     return new Promise((resolve, reject) => {
-      NotesDb.find({ userId: req.body.data.id })
+      NotesDb.find(req)
         .then((data) => {
           if (data.length > 0) {
             (response.success = true),
@@ -59,19 +59,6 @@ class ModelClass {
         .catch((err) => {
           console.log(err);
           reject({ success: false, error: err });
-        });
-    });
-  }
-
-  //find particular note(noteId)
-  findNote(req) {
-    return new Promise((resolve, reject) => {
-      NotesDb.find({ id: req.body.noteId })
-        .then((data) => {
-          resolve(data);
-        })
-        .catch((err) => {
-          reject(err);
         });
     });
   }
@@ -95,7 +82,7 @@ class ModelClass {
         .catch((err) => {
           (response.success = false),
             (response.message = "notes are not saved");
-          (response.data = data), (response.status = 400);
+          (response.data = err), (response.status = 400);
           reject({ response });
         });
     });
@@ -134,21 +121,27 @@ class ModelClass {
           response.message = err;
           reject(response);
         });
-      // Notes.findByIdAndUpdate(req.noteId, { $set: noteModel }).then((update) => {
-      //     response.success = true;
-      //     response.message = "Note Updated Successfully";
-      //     response.data = data;
-      //     response.status = 200
-      //     resolve(response)
-      // }).catch((err) => {
-      //     response.success = false;
-      //     response.message = err;
-      //     reject(response)
-      // })
+
+      //alternative method
+      /*  NotesDb.findByIdAndUpdate({ _id: req.body.noteId }, newNote, {
+        new: true,
+      })
+        .then((data) => {
+          response.success = true;
+          response.message = "Note Updated Successfully";
+          response.data = data;
+          response.status = 200;
+          resolve(response);
+        })
+        .catch((err) => {
+          response.success = false;
+          response.message = err;
+          reject(response);
+        });  */
     });
   }
 
-  //delete update notes in db
+  //delete notes in db
   deleteModel(req) {
     return new Promise((resolve, reject) => {
       var response = {
@@ -170,83 +163,21 @@ class ModelClass {
           response.message = err;
           reject(response);
         });
-      // Notes.findByIdAndUpdate(req.noteId, { $set: noteModel }).then((update) => {
-      //     response.success = true;
-      //     response.message = "Note Updated Successfully";
-      //     response.data = data;
-      //     response.status = 200
-      //     resolve(response)
-      // }).catch((err) => {
-      //     response.success = false;
-      //     response.message = err;
-      //     reject(response)
-      // })
-    });
-  }
 
-  //archived notes
-  findArchived(req) {
-    let response = {
-      message: "",
-      data: "",
-      success: "",
-      status: 200,
-    };
-
-    return new Promise((resolve, reject) => {
-      NotesDb.find(req)
+      //alternative method
+      /*NotesDb.findByIdAndDelete({ _id: req.body.noteId })
         .then((data) => {
-          if (data.length > 0) {
-            (response.success = true),
-              (response.data = data),
-              (response.status = 200),
-              (response.message = "Archives notes Fectched Successfully");
-            resolve(response);
-          } else {
-            resolve({
-              message: "there are no archived notes",
-              data: [],
-              status: 200,
-            });
-          }
+          response.success = true;
+          response.message = "Note deleted Successfully";
+          response.data = data;
+          response.status = 200;
+          resolve(response);
         })
         .catch((err) => {
-          console.log(err);
-          reject({ success: false, error: err });
-        });
-    });
-  }
-
-   //deleted notes
-   findDeleted(req) {
-    let response = {
-      message: "",
-      data: "",
-      success: "",
-      status: 200,
-    };
-
-    return new Promise((resolve, reject) => {
-      NotesDb.find(req)
-        .then((data) => {
-          if (data.length > 0) {
-            (response.success = true),
-              (response.data = data),
-              (response.status = 200),
-              (response.message = "Deleted Notes Fetched Successfully");
-            resolve(response);
-          } else {
-            resolve({
-              message: "No Deleted Notes Found",
-              data: [],
-              status: 200,
-            });
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-          reject({ success: false, error: err });
-        });
+          response.success = false;
+          response.message = err;
+          reject(response);
+        }); */
     });
   }
 }

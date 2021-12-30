@@ -91,7 +91,7 @@ class ModelClass {
   }
     
   //method to find user
-  updateModel(userId,hash){
+  updateModel(userId,update){
     let response = {
       message: "",
       data: "",
@@ -100,9 +100,9 @@ class ModelClass {
     };
 
     return new Promise((resolve, reject) => {
-      console.log("Resetting Db userId",userId );
+      console.log("Resetting password of userId",userId );
       userDb
-        .findByIdAndUpdate(userId, {password:hash}, {
+        .findByIdAndUpdate(userId, update, {
           new: true,
         })
         .then((data) => {

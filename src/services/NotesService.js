@@ -21,7 +21,8 @@ class ServiceClass {
 
   //get notes
   async getNotesService(req) {
-    let notesFound = await notesModel.findNotes(req);
+    let query = { userId: req.body.data.id }
+    let notesFound = await notesModel.findNotes(query);
     return notesFound;
   }
 
@@ -35,7 +36,9 @@ class ServiceClass {
       data: "",
     };
 
-    let oldNote = await notesModel.findNote(req);
+    let query = { id: req.body.noteId };
+
+    let oldNote = await notesModel.findNotes(query);
 
     if (oldNote) {
       let data = await notesModel.updateModel(req, oldNote);
@@ -58,19 +61,15 @@ class ServiceClass {
 
   //archived notes
   async archiveService(req) {
-    let notesArchived = await notesModel.findArchived({
-      userId: req.body.data.id,
-      isArchived: true,
-    });
+    let query = {userId: req.body.data.id,isArchived: true,}
+    let notesArchived = await notesModel.findNotes(query);
     return notesArchived;
   }
 
   //deleted notes
   async isDeletedService(req) {
-    let notesDeleted = await notesModel.findDeleted({
-      userId: req.body.data.id,
-      isDeleted: true,
-    });
+    let query = {userId: req.body.data.id,isDeleted: true,}
+    let notesDeleted = await notesModel.findNotes(query);
     return notesDeleted;
   }
 }

@@ -11,7 +11,7 @@ const userDb = model.userDb;
 class ServiceClass {
   //register user
   async registerService(req) {
-    let email = {email:req.body.email}
+    let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
     let len = foundUser.data.length;
 
@@ -48,7 +48,7 @@ class ServiceClass {
       message: "",
       data: "",
     };
-    let email = {email:req.body.email}
+    let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
     console.log(foundUser);
 
@@ -99,7 +99,7 @@ class ServiceClass {
       message: "",
       data: "",
     };
-    let email = {email:req.body.email}
+    let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
 
     if (foundUser) {
@@ -135,11 +135,13 @@ class ServiceClass {
     let foundUser = await userModel.findUser(userId);
 
     if (foundUser) {
-      console.log("Resetting Password ",foundUser);
-      let hash = await bcrypt.hash(req.body.password, 8);
-      console.log(hash);
+      console.log("Resetting Password ", foundUser);
 
-      let updatedUser = await userModel.updateModel(userId, hash);
+      let hash = await bcrypt.hash(req.body.password, 8);
+
+      let newPassword = { password: hash };
+
+      let updatedUser = await userModel.updateModel(userId, newPassword);
 
       return updatedUser;
     } else {
