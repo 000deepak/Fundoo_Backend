@@ -13,10 +13,10 @@ const NotesSchema = new mongoose.Schema(
       type: String,
     },
     isArchived: {
-      type: String,
+      type: Boolean,
     },
     isDeleted: {
-      type: String,
+      type: Boolean,
     },
     userId: {
       type: String,
@@ -30,6 +30,7 @@ const NotesSchema = new mongoose.Schema(
 const NotesDb = mongoose.model("Notes", NotesSchema);
 
 class ModelClass {
+  //find all notes of user(userId)
   findNotes(req) {
     let response = {
       message: "",
@@ -45,7 +46,7 @@ class ModelClass {
             (response.success = true),
               (response.data = data),
               (response.status = 200),
-              (response.message = "notes  exists");
+              (response.message = "Notes Found");
             resolve(response);
           } else {
             resolve({
@@ -62,13 +63,11 @@ class ModelClass {
     });
   }
 
+  //find particular note(noteId)
   findNote(req) {
-    //console.log("req in find note", req.body.userId);
-
     return new Promise((resolve, reject) => {
       NotesDb.find({ id: req.body.noteId })
         .then((data) => {
-          //console.log("request", data);
           resolve(data);
         })
         .catch((err) => {
@@ -77,6 +76,7 @@ class ModelClass {
     });
   }
 
+  //method to save notes to db
   saveModel(req) {
     let response = {
       success: true,
@@ -86,9 +86,8 @@ class ModelClass {
 
     return new Promise((resolve, reject) => {
       req
-        .save() //save data to db
+        .save()
         .then((data) => {
-          //return status and data
           (response.success = true), (response.message = "notes saved");
           (response.data = data), (response.status = 200);
           resolve({ response });
@@ -96,15 +95,14 @@ class ModelClass {
         .catch((err) => {
           (response.success = false),
             (response.message = "notes are not saved");
-          (response.data = data), (response.status = 200);
+          (response.data = data), (response.status = 400);
           reject({ response });
         });
     });
   }
 
+  //update notes to db
   updateModel(req, oldNote) {
-    //console.log(" inside update model", req, newNote);
-
     return new Promise((resolve, reject) => {
       var response = {
         success: false,
@@ -112,21 +110,19 @@ class ModelClass {
         data: "",
       };
 
-         var newNote = {
+      var newNote = {
         title: req.body.title ? req.body.title : oldNote.title,
-        description: req.body.description? req.body.description: oldNote.description,
+        description: req.body.description
+          ? req.body.description
+          : oldNote.description,
         isArchived: req.body.isArchived ? req.body.isArchived : false,
         isDeleted: req.body.isDeleted ? req.body.isDeleted : false,
         color: req.body.color ? req.body.color : oldNote.color,
         userId: req.body.data.id,
-      }; 
-
-      console.log();
+      };
 
       NotesDb.updateOne({ _id: req.body.noteId }, newNote, { new: true })
         .then((result) => {
-          console.log(" updted successfully", result);
-
           response.success = true;
           response.message = "Note Updated Successfully";
           response.data = result;
@@ -152,9 +148,8 @@ class ModelClass {
     });
   }
 
-  deleteModel(req, newNote) {
-    console.log(" req in model ererere*&*&&*&*&*&*&*&*&*", req, newNote);
-
+  //delete update notes in db
+  deleteModel(req) {
     return new Promise((resolve, reject) => {
       var response = {
         success: false,
@@ -162,10 +157,8 @@ class ModelClass {
         data: "",
       };
 
-      NotesDb.deleteOne({_id: req.body.noteId})
+      NotesDb.deleteOne({ _id: req.body.noteId })
         .then((result) => {
-          console.log(" Deletedsuccessfully", result);
-
           response.success = true;
           response.message = "Note Deleted Successfully";
           response.data = result;
@@ -188,6 +181,72 @@ class ModelClass {
       //     response.message = err;
       //     reject(response)
       // })
+    });
+  }
+
+  //archived notes
+  findArchived(req) {
+    let response = {
+      message: "",
+      data: "",
+      success: "",
+      status: 200,
+    };
+
+    return new Promise((resolve, reject) => {
+      NotesDb.find(req)
+        .then((data) => {
+          if (data.length > 0) {
+            (response.success = true),
+              (response.data = data),
+              (response.status = 200),
+              (response.message = "Archives notes Fectched Successfully");
+            resolve(response);
+          } else {
+            resolve({
+              message: "there are no archived notes",
+              data: [],
+              status: 200,
+            });
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+          reject({ success: false, error: err });
+        });
+    });
+  }
+
+   //deleted notes
+   findDeleted(req) {
+    let response = {
+      message: "",
+      data: "",
+      success: "",
+      status: 200,
+    };
+
+    return new Promise((resolve, reject) => {
+      NotesDb.find(req)
+        .then((data) => {
+          if (data.length > 0) {
+            (response.success = true),
+              (response.data = data),
+              (response.status = 200),
+              (response.message = "Deleted Notes Fetched Successfully");
+            resolve(response);
+          } else {
+            resolve({
+              message: "No Deleted Notes Found",
+              data: [],
+              status: 200,
+            });
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+          reject({ success: false, error: err });
+        });
     });
   }
 }

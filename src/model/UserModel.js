@@ -1,6 +1,5 @@
 //imports
 const mongoose = require("mongoose");
-const bcrypt = require("bcrypt");
 
 //db Schema
 const userSchema = new mongoose.Schema(
@@ -24,11 +23,12 @@ const userSchema = new mongoose.Schema(
 );
 
 const userDb = mongoose.model("Users", userSchema);
-//exporting this user as shown at end  and create the same user using fileName.exportedUser(model.user)
 
 //model class
 class ModelClass {
-  findUser(req) {
+  
+  //method to find user
+  findUser(req){
     let response = {
       message: "",
       data: "",
@@ -38,13 +38,13 @@ class ModelClass {
 
     return new Promise((resolve, reject) => {
       userDb
-        .find({ email: req.email })
+        .find(req)
         .then((data) => {
           if (data.length > 0) {
             (response.success = true),
               (response.data = data),
               (response.status = 422),
-              (response.message = "user  already exists");
+              (response.message = "User  Found");
             resolve(response);
           } else {
             resolve({
@@ -61,6 +61,7 @@ class ModelClass {
     });
   }
 
+  //method to register user
   registerModel(req) {
     let response = {
       success: true,
@@ -88,10 +89,45 @@ class ModelClass {
         });
     });
   }
+    
+  //method to find user
+  updateModel(userId,hash){
+    let response = {
+      message: "",
+      data: "",
+      success: "",
+      status: 200,
+    };
+
+    return new Promise((resolve, reject) => {
+      console.log("Resetting Db userId",userId );
+      userDb
+        .findByIdAndUpdate(userId, {password:hash}, {
+          new: true,
+        })
+        .then((data) => {
+          if (data) {
+            (response.success = true),
+              (response.data = data),
+              (response.status = 422),
+              (response.message = "User Password Updated");
+            resolve(response);
+          } else {
+            resolve({
+              message: "Password Reset Failed ",
+              data: data,
+              status: 200,
+            });
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+          reject({ success: false, error: err });
+        });
+    });
+  }
 }
 
 //exports class with Schema & db names
 module.exports = { ModelClass, userDb };
 
-//find returns array
-//findOne returns object

@@ -1,21 +1,15 @@
 const dotenv = require('dotenv');
 dotenv.config({ path: '.env' });
-
-//require(".env").config();
 console.log(process.env.PORT);
 
 //imports
 let express = require("express");
-let mongoose = require("mongoose");
-let router = require("../Router/router");
 var expressValidator = require('express-validator');
-
+let router = require("./src/routes/router");
 
 //create
 let app = express();
 app.use(expressValidator())
-
-//using json
 app.use(express.json());
 
 //link Route
@@ -27,13 +21,6 @@ app.listen(process.env.PORT, () => {
 });
 
 //connect moongoose to db
-mongoose.connect(process.env.DB, (error) => {
-  if (error) console.log("connection error");
-  else console.log("connection succesfull");
-});
+const dbConfig = require('./src/config/database.js');
+dbConfig.connection();
 
-
-
-// 1.import all files and libs
-// 2.start nodejs => user express.json => link ROute => listen app
-// 3.connect to db with mongoose

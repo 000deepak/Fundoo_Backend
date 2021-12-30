@@ -1,21 +1,18 @@
 //imports
-const model = require("../Model/UserModel");
+const model = require("../model/UserModel");
 const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken")
+const jwt = require("jsonwebtoken");
+const nodemailer = require("../middleware/nodeMailer");
 
-//create
+//create Db
 const userModel = new model.ModelClass();
-//Here ModelClass is not exported as reference(object) but as class so again we have to create a object.
-//we create new object of model class model instance to access its method(registerModel)
-
 const userDb = model.userDb;
-//we create userDb variable to store database details(Schema,name) to use further.
-//we can access the db details by using pathVariable(here model).ExportedValue(here user)
 
 class ServiceClass {
   //register user
   async registerService(req) {
-    let foundUser = await userModel.findUser(req.body);
+    let email = {email:req.body.email}
+    let foundUser = await userModel.findUser(email);
     let len = foundUser.data.length;
 
     if (len == 0) {
@@ -37,7 +34,7 @@ class ServiceClass {
   }
 
   //get all users
-  getService(req) {
+  getService() {
     return new Promise((resolve, reject) => {
       const result = userDb.find();
       resolve(result);
@@ -51,24 +48,24 @@ class ServiceClass {
       message: "",
       data: "",
     };
-    let foundUser = await userModel.findUser(req.body);
-    ///console.log(foundUser)
+    let email = {email:req.body.email}
+    let foundUser = await userModel.findUser(email);
+    console.log(foundUser);
 
     if (foundUser.data.length > 0) {
       return new Promise((resolve, reject) => {
-        console.log( foundUser.data[0].email,foundUser.data[0].id , "tttttttttjjkj");
         bcrypt
           .compare(req.body.password, foundUser.data[0].password)
           .then((result) => {
             if (result) {
               let token = jwt.sign(
-                { email: foundUser.data[0].email,id:foundUser.data[0].id },
+                { email: foundUser.data[0].email, id: foundUser.data[0].id },
                 "secret"
               );
               let obj = {
                 fName: foundUser.data[0].fName,
                 lName: foundUser.data[0].lName,
-                userId:foundUser.data[0]._id,
+                userId: foundUser.data[0]._id,
                 email: foundUser.data[0].email,
                 token: token,
               };
@@ -95,10 +92,66 @@ class ServiceClass {
     }
   }
 
+  //forget password service
+  async forgotPasswordService(req) {
+    let response = {
+      success: true,
+      message: "",
+      data: "",
+    };
+    let email = {email:req.body.email}
+    let foundUser = await userModel.findUser(email);
+
+    if (foundUser) {
+      //jwt
+      let token = jwt.sign(
+        { email: foundUser.data[0].email, id: foundUser.data[0].id },
+        "secret"
+      );
+      let address = "http://localhost:3000/resetpassword/";
+
+      let link = address + token;
+
+      console.log("Sending email to ", foundUser.data[0].email, link);
+
+      let status = await nodemailer.sendEmail(foundUser.data[0].email, link);
+      return status;
+    } else {
+      (response.success = false), (response.message = "User Not Found");
+      (response.data = ""), (response.status = 400);
+      return response;
+    }
+  }
+
+  //reset password service
+  async resetPasswordService(req) {
+    let response = {
+      success: true,
+      message: "",
+      data: "",
+    };
+
+    let userId = { _id: req.body.data.id };
+    let foundUser = await userModel.findUser(userId);
+
+    if (foundUser) {
+      console.log("Resetting Password ",foundUser);
+      let hash = await bcrypt.hash(req.body.password, 8);
+      console.log(hash);
+
+      let updatedUser = await userModel.updateModel(userId, hash);
+
+      return updatedUser;
+    } else {
+      (response.success = false), (response.message = "User Not Found");
+      (response.data = ""), (response.status = 400);
+      return response;
+    }
+  }
+
   //put Service
   putService(req) {
     return new Promise((resolve, reject) => {
-      //what we have to update
       console.log(req.params.id);
       const user = userDb.findByIdAndUpdate(req.params.id, req.body, {
         new: true,
@@ -111,7 +164,6 @@ class ServiceClass {
   deleteService(req) {
     return new Promise((resolve, reject) => {
       console.log(req.params.id);
-
       userDb.findByIdAndDelete(req.params.id).then((result) => {
         console.log(result);
         resolve("user deleted");
@@ -122,6 +174,3 @@ class ServiceClass {
 
 //exports
 module.exports = new ServiceClass();
-//here we are not exporting class but exporting its reference or object.
-//npm install -g express-api-cli
-//exp-api create projectname
