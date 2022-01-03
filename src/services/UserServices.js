@@ -112,7 +112,7 @@ class ServiceClass {
 
       let link = address + token;
 
-      console.log("Sending email to ", foundUser.data[0].email, link);
+      console.log("Sending email to ", foundUser.data[0].email);
 
       let status = await nodemailer.sendEmail(foundUser.data[0].email, link);
       return status;
@@ -137,7 +137,7 @@ class ServiceClass {
     if (foundUser) {
       console.log("Resetting Password ", foundUser);
 
-      let hash = await bcrypt.hash(req.body.password, 8);
+      let hash = await bcrypt.hash(req.body.confirmPassword, 8);
 
       let newPassword = { password: hash };
 

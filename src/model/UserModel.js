@@ -55,7 +55,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          console.log(err);
+          logger.err("inside model err ", result);
           reject({ success: false, error: err });
         });
     });
@@ -81,6 +81,7 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
+          logger.err("inside model err ", result);
           (response.success = false),
             (response.message = " Registration Failed"),
             (response.data = ""),
@@ -121,7 +122,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          console.log(err);
+          logger.err("inside model err ", result);
           reject({ success: false, error: err });
         });
     });

@@ -1,0 +1,11 @@
+
+{"level":"info","message":"listening at port 9000","timestamp":"2022-01-03T05:14:19.434Z"}
+{"level":"info","message":"listening at port 9000","timestamp":"2022-01-03T05:17:56.064Z"}
+{"level":"info","message":"listening at port 9000","timestamp":"2022-01-03T05:19:15.102Z"}
+{"level":"info","message":"inside controller ,successful ","response":{"data":{"__v":0,"_id":"61d28754f9336541bc60812d","colour":"#fff","createdAt":"2022-01-03T05:19:16.371Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee6","updatedAt":"2022-01-03T05:19:16.371Z","userId":"61cc704208b103db8175bc6b"},"message":"notes saved","status":200,"success":true},"timestamp":"2022-01-03T05:19:16.385Z"}
+{"level":"info","message":"listening at port 9000","timestamp":"2022-01-03T05:20:14.945Z"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful ","response":{"data":{"__v":0,"_id":"61d287b12e6048a312c9b67f","colour":"#fff","createdAt":"2022-01-03T05:20:49.620Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee6","updatedAt":"2022-01-03T05:20:49.620Z","userId":"61cc704208b103db8175bc6b"},"message":"notes saved","status":200,"success":true}}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful ","response":{"data":{"__v":0,"_id":"61d287d82728a76910b23199","colour":"#fff","createdAt":"2022-01-03T05:21:28.210Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee6","updatedAt":"2022-01-03T05:21:28.210Z","userId":"61cc704208b103db8175bc6b"},"message":"notes saved","status":200,"success":true}}

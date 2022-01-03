@@ -1,4 +1,5 @@
 //imports
+const logger = require("../middleware/logger");
 let service = require("../services/UserServices");
 
 class RegisterClass {
@@ -7,11 +8,11 @@ class RegisterClass {
     service
       .registerService(req)
       .then((result) => {
-        console.log("inside controller ,successful ", result);
+        logger.info("inside controller ,successful ", result);
         res.send(result);
       })
       .catch((err) => {
-        console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(err);
       });
   }
@@ -21,10 +22,11 @@ class RegisterClass {
     service
       .getService(req)
       .then((result) => {
-        console.log(result);
+        logger.info("inside controller ,successful ", result);
+        res.send(result);
       })
       .catch((err) => {
-        console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
       });
   }
 
@@ -33,10 +35,11 @@ class RegisterClass {
     service
       .loginService(req)
       .then((result) => {
-        console.log(result);
+        logger.info("inside controller ,successful ", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -46,10 +49,11 @@ class RegisterClass {
     service
       .forgotPasswordService(req)
       .then((result) => {
-        console.log(result);
+        logger.info("inside controller ,successful ", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -59,10 +63,11 @@ class RegisterClass {
     service
       .resetPasswordService(req)
       .then((result) => {
-        console.log(result);
+        logger.info("inside controller ,successful ", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }

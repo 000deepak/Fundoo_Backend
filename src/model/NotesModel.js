@@ -57,7 +57,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          console.log(err);
+          logger.err("inside model err ", result);
           reject({ success: false, error: err });
         });
     });
@@ -80,6 +80,7 @@ class ModelClass {
           resolve({ response });
         })
         .catch((err) => {
+          logger.err("inside model err ", result);
           (response.success = false),
             (response.message = "notes are not saved");
           (response.data = err), (response.status = 400);
@@ -117,6 +118,7 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
+          logger.err("inside model err ", result);
           response.success = false;
           response.message = err;
           reject(response);
@@ -159,6 +161,7 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
+          logger.err("inside model err ", result);
           response.success = false;
           response.message = err;
           reject(response);

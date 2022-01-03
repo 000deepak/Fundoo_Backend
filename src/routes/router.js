@@ -9,19 +9,19 @@ const notesCon = require("../controller/NotesController");
 let router = express.Router();
 
 //link router
-router.post("/register",validate.signUp, controller.registerControl);
-router.get("/login", validate.login,controller.loginControl);
+router.post("/register",        validate.signUp, controller.registerControl);
+router.get("/login",            validate.login,controller.loginControl);
 router.post("/forgotpassword",  validate.email,controller.forgotPasswordController); 
-router.post("/resetpassword",auth, controller.resetPasswordController); 
+router.post("/resetpassword",   auth, controller.resetPasswordController); 
 router.get("/get", controller.getController); 
 
 //Notes App link
-router.post("/addnotes",auth, notesCon.saveController);
+router.post("/addnotes",auth,notesCon.saveController);
 router.get("/getnotes", auth,notesCon.getNotesController);
-router.post("/update", auth,notesCon.updateController);
-router.post("/delete", auth,notesCon.deleteController);
+router.post("/update",  auth,notesCon.updateController);
+router.post("/delete",  auth,notesCon.deleteController);
 router.get("/archived", auth,notesCon.archiveController);
-router.get("/deleted", auth,notesCon.isDeletedController);
+router.get("/deleted",  auth,notesCon.isDeletedController);
 
 
 //export

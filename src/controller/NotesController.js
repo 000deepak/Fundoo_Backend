@@ -1,23 +1,20 @@
 //import service reference
 const service = require("../services/NotesService");
+const logger = require('../middleware/logger')
 
 class ControllerClass {
   //save the notes
   saveController(req, res) {
-    if (req.body.title) {
-      service
-        .saveService(req)
-        .then((result) => {
-          console.log("inside controller ,successful ", result);
-          res.send(JSON.stringify(result));
-        })
-        .catch((err) => {
-          console.log("inside controller ,error", err);
-          res.send(JSON.stringify(err));
-        });
-    } else {
-      res.send("body cannot be empty");
-    }
+    service
+      .saveService(req)
+      .then((result) => {
+        logger.info("inside controller ,successful ", result);
+        res.send(JSON.stringify(result));
+      })
+      .catch((err) => {
+        logger.err("inside controller ,error", err);
+        res.send(JSON.stringify(err));
+      });
   }
 
   //get all notes
@@ -25,11 +22,11 @@ class ControllerClass {
     service
       .getNotesService(req)
       .then((result) => {
-        console.log("insideget notes", result);
+        logger.info("insideget notes", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -39,11 +36,11 @@ class ControllerClass {
     service
       .updateService(req)
       .then((result) => {
-        console.log("inside controller successs", result);
+        logger.info("inside controller successs", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -53,11 +50,11 @@ class ControllerClass {
     service
       .deleteService(req)
       .then((result) => {
-        console.log("inside controller successs", result);
+        logger.info("inside controller successs", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -67,11 +64,11 @@ class ControllerClass {
     service
       .archiveService(req)
       .then((result) => {
-        //console.log("inside controller successs", result);
+        logger.info("inside controller successs", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        //console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -80,11 +77,11 @@ class ControllerClass {
     service
       .isDeletedService(req)
       .then((result) => {
-        //console.log("inside controller successs", result);
+        logger.info("inside controller successs", result);
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        //console.log("inside controller ,failed", err);
+        logger.err("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
