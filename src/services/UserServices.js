@@ -9,36 +9,29 @@ const userModel = new model.ModelClass();
 const userDb = model.userDb;
 
 class ServiceClass {
-  //register user
+  //Signup service
   async registerService(req) {
     let email = { email: req.body.email };
+
     let foundUser = await userModel.findUser(email);
     let len = foundUser.data.length;
 
     if (len == 0) {
+      let hash = await bcrypt.hash(req.body.password, 8);
+
       let newUser = new userDb({
         fName: req.body.fName,
         lName: req.body.lName,
         email: req.body.email,
-        password: req.body.password,
+        password: hash,
       });
 
-      let hash = await bcrypt.hash(newUser.password, 8);
-      newUser.password = hash;
       let savedData = await userModel.registerModel(newUser);
 
       return savedData;
     } else {
       return foundUser;
     }
-  }
-
-  //get all users
-  getService() {
-    return new Promise((resolve, reject) => {
-      const result = userDb.find();
-      resolve(result);
-    });
   }
 
   //login service
@@ -50,7 +43,6 @@ class ServiceClass {
     };
     let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
-    console.log(foundUser);
 
     if (foundUser.data.length > 0) {
       return new Promise((resolve, reject) => {
@@ -70,21 +62,18 @@ class ServiceClass {
                 token: token,
               };
 
-              (response.success = true),
-                (response.message = "logged in successfull");
+              (response.success = true), (response.message = "logged in successfull");
               (response.data = obj), (response.status = 200);
               resolve(response);
             } else {
-              (response.success = false),
-                (response.message = "Invalid Password,Please try again");
-              (response.data = ""), (response.status = 400);
+              (response.success = false), (response.message = "Invalid Password,Please try again");
+              (response.data = ""), (response.status = 200);
               resolve(response);
             }
           })
           .catch((err) => {
             console.log(err, "inside proise");
-            (response.success = false),
-              (response.message = "Invalid Password,Please try again");
+            (response.success = false), (response.message = "Invalid Password,Please try again");
             (response.data = ""), (response.status = 400);
             resolve(response);
           });
@@ -101,24 +90,25 @@ class ServiceClass {
     };
     let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
-
     if (foundUser) {
       //jwt
-      let token = jwt.sign(
-        { email: foundUser.data[0].email, id: foundUser.data[0].id },
-        "secret"
-      );
+      let token = jwt.sign({ email: foundUser.data[0].email, id: foundUser.data[0].id }, "secret");
       let address = "http://localhost:3000/resetpassword/";
 
       let link = address + token;
 
-      console.log("Sending email to ", foundUser.data[0].email);
+      looger.info("Sending email to ", foundUser.data[0].email);
 
-      let status = await nodemailer.sendEmail(foundUser.data[0].email, link);
-      return status;
+      await nodemailer.sendEmail(foundUser.data[0].email, link);
+      (response.success = true), 
+      (response.message = "Link sent to email Successfully");
+      (response.data = ""), 
+      (response.status = 200);
+
+      return response;
     } else {
       (response.success = false), (response.message = "User Not Found");
-      (response.data = ""), (response.status = 400);
+      (response.data = ""), (response.status = 200);
       return response;
     }
   }
@@ -135,7 +125,7 @@ class ServiceClass {
     let foundUser = await userModel.findUser(userId);
 
     if (foundUser) {
-      console.log("Resetting Password ", foundUser);
+      logger.info("Resetting Password ", foundUser);
 
       let hash = await bcrypt.hash(req.body.confirmPassword, 8);
 
@@ -146,31 +136,9 @@ class ServiceClass {
       return updatedUser;
     } else {
       (response.success = false), (response.message = "User Not Found");
-      (response.data = ""), (response.status = 400);
+      (response.data = ""), (response.status = 200);
       return response;
     }
-  }
-
-  //put Service
-  putService(req) {
-    return new Promise((resolve, reject) => {
-      console.log(req.params.id);
-      const user = userDb.findByIdAndUpdate(req.params.id, req.body, {
-        new: true,
-      });
-      resolve(user);
-    });
-  }
-
-  //Delete Service
-  deleteService(req) {
-    return new Promise((resolve, reject) => {
-      console.log(req.params.id);
-      userDb.findByIdAndDelete(req.params.id).then((result) => {
-        console.log(result);
-        resolve("user deleted");
-      });
-    });
   }
 }
 

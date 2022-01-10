@@ -12,7 +12,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,error", err);
+        logger.error("inside controller ,error", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -26,7 +26,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,failed", err);
+        logger.error("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -40,7 +40,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,failed", err);
+        logger.error("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -54,7 +54,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,failed", err);
+        logger.error("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -68,7 +68,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,failed", err);
+        logger.error("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }
@@ -81,7 +81,7 @@ class ControllerClass {
         res.send(JSON.stringify(result));
       })
       .catch((err) => {
-        logger.err("inside controller ,failed", err);
+        logger.error("inside controller ,failed", err);
         res.send(JSON.stringify(err));
       });
   }

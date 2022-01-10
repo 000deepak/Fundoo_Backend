@@ -1,5 +1,6 @@
 //import
 const mongoose = require("mongoose");
+const logger = require("../middleware/logger");
 
 const NotesSchema = new mongoose.Schema(
   {
@@ -57,7 +58,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", err);
           reject({ success: false, error: err });
         });
     });
@@ -80,7 +81,7 @@ class ModelClass {
           resolve({ response });
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", err);
           (response.success = false),
             (response.message = "notes are not saved");
           (response.data = err), (response.status = 400);
@@ -90,7 +91,7 @@ class ModelClass {
   }
 
   //update notes to db
-  updateModel(req, oldNote) {
+  updateModel(req, newNote) {
     return new Promise((resolve, reject) => {
       var response = {
         success: false,
@@ -98,18 +99,8 @@ class ModelClass {
         data: "",
       };
 
-      var newNote = {
-        title: req.body.title ? req.body.title : oldNote.title,
-        description: req.body.description
-          ? req.body.description
-          : oldNote.description,
-        isArchived: req.body.isArchived ? req.body.isArchived : false,
-        isDeleted: req.body.isDeleted ? req.body.isDeleted : false,
-        color: req.body.color ? req.body.color : oldNote.color,
-        userId: req.body.data.id,
-      };
-
-      NotesDb.updateOne({ _id: req.body.noteId }, newNote, { new: true })
+      console.log(req,newNote);
+      NotesDb.updateOne(req, newNote, { new: true })
         .then((result) => {
           response.success = true;
           response.message = "Note Updated Successfully";
@@ -118,7 +109,7 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", result);
           response.success = false;
           response.message = err;
           reject(response);
@@ -152,7 +143,7 @@ class ModelClass {
         data: "",
       };
 
-      NotesDb.deleteOne({ _id: req.body.noteId })
+      NotesDb.deleteOne(req)
         .then((result) => {
           response.success = true;
           response.message = "Note Deleted Successfully";
@@ -161,7 +152,7 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", result);
           response.success = false;
           response.message = err;
           reject(response);

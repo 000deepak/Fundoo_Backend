@@ -1,15 +1,23 @@
 const jwt = require("jsonwebtoken");
+const logger = require("../middleware/logger");
 
-var auth = (req,res,next) => {
+var auth = (req, res, next) => {
   let token = req.headers["token"];
 
-  jwt.verify(token,"secret",function (err, decoded) {
+  jwt.verify(token, "secret", function (err, decoded) {
     if (err) {
-      return res.status(401).send({ message: "authentication failed/not authentication " });
+      return res.status(401).send({ message: "authentication failed " });
     } else {
       req.body["data"] = decoded;
       req.token = decoded;
-      console.log(" req body ",req.body ,"decoded value", decoded);
+      logger.info(
+        " req.body.data ",
+        req.body.data,
+        "decoded value",
+        decoded,
+        "request.token=",
+        req.token
+      );
       //id=req.body.data.id
       next();
     }
@@ -17,4 +25,3 @@ var auth = (req,res,next) => {
 };
 
 module.exports = auth;
-

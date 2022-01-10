@@ -26,9 +26,8 @@ const userDb = mongoose.model("Users", userSchema);
 
 //model class
 class ModelClass {
-  
   //method to find user
-  findUser(req){
+  findUser(req) {
     let response = {
       message: "",
       data: "",
@@ -43,7 +42,7 @@ class ModelClass {
           if (data.length > 0) {
             (response.success = true),
               (response.data = data),
-              (response.status = 422),
+              (response.status = 200),
               (response.message = "User  Found");
             resolve(response);
           } else {
@@ -55,7 +54,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.err("inside model err ",err);
           reject({ success: false, error: err });
         });
     });
@@ -81,18 +80,18 @@ class ModelClass {
           resolve(response);
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", err);
           (response.success = false),
             (response.message = " Registration Failed"),
-            (response.data = ""),
+            (response.data = "err"),
             (response.status = 500);
           reject(response);
         });
     });
   }
-    
+
   //method to find user
-  updateModel(userId,update){
+  updateModel(userId, update) {
     let response = {
       message: "",
       data: "",
@@ -101,7 +100,7 @@ class ModelClass {
     };
 
     return new Promise((resolve, reject) => {
-      console.log("Resetting password of userId",userId );
+      console.log("Resetting password of userId", userId);
       userDb
         .findByIdAndUpdate(userId, update, {
           new: true,
@@ -110,7 +109,7 @@ class ModelClass {
           if (data) {
             (response.success = true),
               (response.data = data),
-              (response.status = 422),
+              (response.status = 200),
               (response.message = "User Password Updated");
             resolve(response);
           } else {
@@ -122,7 +121,7 @@ class ModelClass {
           }
         })
         .catch((err) => {
-          logger.err("inside model err ", result);
+          logger.error("inside model err ", err);
           reject({ success: false, error: err });
         });
     });
@@ -131,4 +130,3 @@ class ModelClass {
 
 //exports class with Schema & db names
 module.exports = { ModelClass, userDb };
-

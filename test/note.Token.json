@@ -1,6 +1,0 @@
-{
-    "notes": {
-        "validToken": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ik1FUk5AZ21haWwuY29tIiwiaWQiOiI2MWNlZjMyNTAzOTgyYjE5MzI5NWZmYjUiLCJpYXQiOjE2NDA5NTI2Mjd9.R3gyDPGvUMd24tTOHdODuohiIQpA5h5bnUDFofBGxQE",
-        "inValidToken": "bearer eyJhbGciOR5cCI6IkpXVCJ9.eyJkYXRhRm9yVG9rZW4iOnsiZW1haWwiOiJ2aXZlay5paXRkOTNAZ21haWwuY29tIn0sImlhdCI6MTYzMzU1NTAyOH0.wJqpcpyzvlQPT684BKIeup28MMdy8M37gRuWuU-RhTY"
-    }
-}

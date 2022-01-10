@@ -1,0 +1,456 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Fundoo App ",
+    "description": "This documentation guides the user through the APIs availabe in the system.",
+    "version": "1.1.0"
+  },
+  "paths": {
+    "/register": {
+      "post": {
+        "tags": ["User SignUp"],
+        "summary": "Register a user.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Login Data",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": ["firstName", "lastName", "email", "password"],
+              "properties": {
+                "fName": {
+                  "type": "string"
+                },
+                "lName": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Register a user and get registered user `object` back from the server.",
+        "produces": "application/json",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/login": {
+      "post": {
+        "tags": ["User SignIn"],
+        "summary": "Login a user.",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Login Data",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": ["email", "password"],
+              "properties": {
+                "email": {
+                  "type": "string"
+                },
+                "password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "description": "Login a user and get  user `object` back from the server.",
+        "produces": "application/json",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/forgotpassword": {
+      "post": {
+        "tags": ["Forgot-Password"],
+        "description": "Send Email link to reset password",
+        "parameters": [
+          {
+            "name": "Email",
+            "in": "body",
+            "required": true,
+            "description": "Enter Email to Send Link",
+            "schema": {
+              "type": "object",
+              "required": ["email"],
+              "properties": {
+                "email": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "ok"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/resetpassword": {
+      "patch": {
+        "tags": ["Reset-Password"],
+        "description": "Update password with new password  !!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "name": "New Password",
+            "in": "body",
+            "required": true,
+            "description": "Enter New Password",
+            "schema": {
+              "type": "object",
+              "required": ["new password"],
+              "properties": {
+                "confirmPassword": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "200": {
+            "description": "reset password succesfully !!"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/addnotes": {
+      "post": {
+        "tags": ["Create Notes"],
+        "description": "Create a  note !!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "name": "Note Data",
+            "in": "body",
+            "required": true,
+            "description": "Note's body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "colour": {
+                  "type": "string"
+                },
+                "isArchived": {
+                  "type": "string"
+                },
+                "isDeleted": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "schema": {},
+        "responses": {
+          "201": {
+            "description": "Create note succesfully !!"
+          },
+          "400": {
+            "description": "Please enter Valid Token"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/getnotes": {
+      "get": {
+        "tags": ["Get All Notes"],
+        "description": "See all notes !!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "schema": {
+          "$ref": "#/definitions/GetNote"
+        },
+        "responses": {
+          "201": {
+            "description": "Succesfully !! retrieve all notes."
+          },
+          "401": {
+            "description": "Please enter Valid Token/ or add bearer before token..."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/update": {
+      "put": {
+        "tags": ["Update Notes"],
+        "description": "Update a Specific by note id !!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "body",
+            "name": "noteId",
+            "description": "Enter note id to delete",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "noteId": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "body",
+            "name": "note",
+            "description": "Note body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "color": {
+                  "type": "string"
+                },
+                "isArchived": {
+                  "type": "string"
+                },
+                "isDeleted": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "update note succesfully !!"
+          },
+          "401": {
+            "description": "Please enter Valid Token"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/delete": {
+      "delete": {
+        "tags": ["Delete Notes"],
+        "description": "Delete a note by note id ",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          {
+            "in": "body",
+            "name": "noteId",
+            "description": "Enter note id to delete",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "noteId": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "Delete note succesfully !!"
+          },
+          "401": {
+            "description": "Please enter Valid Token"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/deleted": {
+      "get": {
+        "tags": ["Get All Deleted Notes"],
+        "description": "Get all deleted notes !!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "schema": {
+          "$ref": "#/definitions/GetNote"
+        },
+        "responses": {
+          "201": {
+            "description": "Succesfully !! retrieve all notes."
+          },
+          "401": {
+            "description": "Please enter Valid Token/ or add bearer before token..."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/archived": {
+      "get": {
+        "tags": ["Get All Archived Notes"],
+        "description": "Get all archived notes!!",
+        "parameters": [
+          {
+            "name": "token",
+            "in": "header",
+            "required": true,
+            "description": "Token for validation",
+            "schema": {
+              "type": "object",
+              "required": ["token"],
+              "properties": {
+                "token": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "schema": {
+          "$ref": "#/definitions/GetNote"
+        },
+        "responses": {
+          "201": {
+            "description": "Succesfully !! retrieve all notes."
+          },
+          "401": {
+            "description": "Please enter Valid Token/ or add bearer before token..."
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    }
+  }
+}

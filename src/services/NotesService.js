@@ -28,7 +28,6 @@ class ServiceClass {
 
   //update notes
   async updateService(req) {
-    console.log(" inside update service", req.body.data.id);
 
     let response = {
       message: "",
@@ -40,8 +39,20 @@ class ServiceClass {
 
     let oldNote = await notesModel.findNotes(query);
 
-    if (oldNote) {
-      let data = await notesModel.updateModel(req, oldNote);
+    if (oldNote.data.length) {
+  
+      var newNote = {
+        title: req.body.title ? req.body.title : oldNote.data.title,
+        description: req.body.description
+          ? req.body.description
+          : oldNote.data.description,
+        isArchived: req.body.isArchived ? req.body.isArchived : false,
+        isDeleted: req.body.isDeleted ? req.body.isDeleted : false,
+        color: req.body.color ? req.body.color : oldNote.data.color,
+        userId: req.body.data.id,
+      };
+
+      let data = await notesModel.updateModel(query, newNote);
 
       return data;
     } else {
@@ -55,20 +66,21 @@ class ServiceClass {
 
   //delete notes
   async deleteService(req) {
-    let notesDeleted = await notesModel.deleteModel(req);
+    let query = { id: req.body.noteId };
+    let notesDeleted = await notesModel.deleteModel(query);
     return notesDeleted;
   }
 
   //archived notes
   async archiveService(req) {
-    let query = {userId: req.body.data.id,isArchived: true,}
+    let query = { userId: req.body.data.id, isArchived: true };
     let notesArchived = await notesModel.findNotes(query);
     return notesArchived;
   }
 
   //deleted notes
   async isDeletedService(req) {
-    let query = {userId: req.body.data.id,isDeleted: true,}
+    let query = { userId: req.body.data.id, isDeleted: true };
     let notesDeleted = await notesModel.findNotes(query);
     return notesDeleted;
   }
