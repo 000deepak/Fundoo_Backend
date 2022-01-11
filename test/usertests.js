@@ -170,4 +170,22 @@ describe("POST /login", () => {
         done();
       });
   });
+
+  //incorrect  password
+  it.only("given UserData with improper password When added Should return status 400", (done) => {
+    const input = data.improperLoginPassword;
+
+    chai
+      .request(server)
+      .post("/login")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(401);
+        done();
+      });
+  });
 });
