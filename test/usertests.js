@@ -12,7 +12,6 @@ let jwToken = "";
 
 /* user registration tests */
 describe("POST /register", () => {
-
   //proper details
   it("given new UserData When added Should return status 200, success=true", (done) => {
     const input = data.UserData;
@@ -46,5 +45,40 @@ describe("POST /register", () => {
       });
   });
 
-});
+  //improper firstname
+  it("given UserData with improper firstname When added Should return status 400", (done) => {
+    const input = data.improperFirstName;
 
+    chai
+      .request(server)
+      .post("/register")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
+  });
+
+    //improper lastname
+    it("given UserData with improper firstname When added Should return status 400", (done) => {
+      const input = data.improperLastName;
+  
+      chai
+        .request(server)
+        .post("/register")
+        .send(input)
+        .end((err, res) => {
+          if (err) {
+            console.log("Plz check again & enter with proper format");
+            return done();
+          }
+          res.should.have.status(500);
+          done();
+        });
+    });
+  
+});
