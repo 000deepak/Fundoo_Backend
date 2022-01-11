@@ -39,5 +39,10 @@
   "LoginData": {
     "email": "deepak@gmail.com",
     "password": "deepak100"
+  },
+
+  "improperLoginEmail": {
+    "email": "depak@gmail.com",
+    "password": "deepak"
   }
 }

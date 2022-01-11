@@ -152,4 +152,22 @@ describe("POST /login", () => {
         done();
       });
   });
+
+  //improper email
+  it("given UserData with improper email When added Should return status 500", (done) => {
+    const input = data.improperLoginEmail;
+
+    chai
+      .request(server)
+      .post("/login")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(404);
+        done();
+      });
+  });
 });
