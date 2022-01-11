@@ -63,25 +63,25 @@ describe("POST /register", () => {
       });
   });
 
-    //improper lastname
-    it("given UserData with improper firstname When added Should return status 400", (done) => {
-      const input = data.improperLastName;
-  
-      chai
-        .request(server)
-        .post("/register")
-        .send(input)
-        .end((err, res) => {
-          if (err) {
-            console.log("Plz check again & enter with proper format");
-            return done();
-          }
-          res.should.have.status(500);
-          done();
-        });
-    });
+  //improper lastname
+  it("given UserData with improper firstname When added Should return status 400", (done) => {
+    const input = data.improperLastName;
 
-      //improper email
+    chai
+      .request(server)
+      .post("/register")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
+  });
+
+  //improper email
   it("given UserData with improper email When added Should return status 400", (done) => {
     const input = data.improperEmail;
 
@@ -99,23 +99,40 @@ describe("POST /register", () => {
       });
   });
 
-    //improper password
-    it("given UserData with improper password When added Should return status 400", (done) => {
-      const input = data.improperPassword;
-  
-      chai
-        .request(server)
-        .post("/register")
-        .send(input)
-        .end((err, res) => {
-          if (err) {
-            console.log("Plz check again & enter with proper format");
-            return done();
-          }
-          res.should.have.status(500);
-          done();
-        });
-    });
+  //improper password
+  it("given UserData with improper password When added Should return status 400", (done) => {
+    const input = data.improperPassword;
+
+    chai
+      .request(server)
+      .post("/register")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
   });
+
+  /* Login Test Cases */
+describe("POST /login", () => {
   
+  //proper details
+  it("given proper login UserData When added Should return status 200, success=true", (done) => {
+    const input = data.LoginData;
+    chai
+      .request(server)
+      .post("/login")
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.have.property("success").eq(true);
+        response.body.should.have.property("message").eq("Login Successfull");
+        done();
+      });
+  });
+
 });

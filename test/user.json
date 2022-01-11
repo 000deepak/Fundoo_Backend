@@ -34,5 +34,10 @@
     "lName": "kumbhar",
     "email": "deepak@gmail.com",
     "password": "deepak"
+  },
+
+  "LoginData": {
+    "email": "deepak@gmail.com",
+    "password": "deepak100"
   }
 }
