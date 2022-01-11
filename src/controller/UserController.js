@@ -9,11 +9,11 @@ class RegisterClass {
       .registerService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(500).json(err);
       });
   }
 
@@ -23,11 +23,11 @@ class RegisterClass {
       .loginService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(500).json(err);
       });
   }
 
@@ -37,11 +37,11 @@ class RegisterClass {
       .forgotPasswordService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(500).json(err);
       });
   }
 
@@ -51,11 +51,11 @@ class RegisterClass {
       .resetPasswordService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(500).json(err);
       });
   }
 }

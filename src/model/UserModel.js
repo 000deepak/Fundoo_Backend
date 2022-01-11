@@ -74,7 +74,7 @@ class ModelClass {
         .save()
         .then((data) => {
           (response.success = true),
-            (response.message = " Registered Succesfully"),
+            (response.message = "Registered Succesfully"),
             (response.data = data),
             (response.status = 200);
           resolve(response);
@@ -82,7 +82,7 @@ class ModelClass {
         .catch((err) => {
           logger.error("inside model err ", err);
           (response.success = false),
-            (response.message = " Registration Failed"),
+            (response.message = "Registration Failed"),
             (response.data = "err"),
             (response.status = 500);
           reject(response);

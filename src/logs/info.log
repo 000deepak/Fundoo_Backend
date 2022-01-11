@@ -354,3 +354,46 @@
 {"data":"","level":"info","message":"inside controller ,successful  LInk sent to email Successfully","status":200,"success":true}
 {"level":"info","message":"listening at port 9000"}
 {"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61dbfc122e93dcc552add8f0","createdAt":"2022-01-10T09:27:46.516Z","email":"mern@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$wBdMj2DdTBJuf2W/jKe/4uzr01VABFm.0Io2Z04OMdHYc0K8XzDf6","updatedAt":"2022-01-10T09:27:46.516Z"}],"level":"info","message":"inside controller ,successful  User  Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dc0f27297b7df8f6146de7","createdAt":"2022-01-10T10:49:15.442Z","email":"mern1@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$gk37bdnCUxNIAT52WN74iuE3ICltWrl/eqC3W76Z6WO2sR0gKvR.y","updatedAt":"2022-01-10T10:49:15.442Z"},"level":"info","message":"inside controller ,successful   Registered Succesfully","status":200,"success":true}
+{"data":{"__v":0,"_id":"61dc0fb8297b7df8f6146dea","createdAt":"2022-01-10T10:52:26.842Z","email":"mern12@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$gPer8hZJrAh53VjGXJ2Hc.e2qFnlKVFabw35X1FBtHefQmGbKE./e","updatedAt":"2022-01-10T10:52:26.842Z"},"level":"info","message":"inside controller ,successful   Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd35747e4465e090ba3993","createdAt":"2022-01-11T07:44:52.396Z","email":"mern121@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$J4n/2lUMDOYFFotDkyLZK.wrHjKqBUicv.MBzrPM94nbgtWpLmI1a","updatedAt":"2022-01-11T07:44:52.396Z"},"level":"info","message":"inside controller ,successful   Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd39822057a8e1545d19ec","createdAt":"2022-01-11T08:02:10.859Z","email":"mern12111@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$8FshE.UkAGOPdIMVfloFIONK4nbEBzOL.nJu310h.rU/1NG4SZybG","updatedAt":"2022-01-11T08:02:10.859Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd477729bf3e0714d77514","createdAt":"2022-01-11T09:01:43.424Z","email":"mern1211@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$cOpBsrkjHwBECaXt4rEwWeMCicYELScSAhiWZMg3BCj4NYhJ1AULC","updatedAt":"2022-01-11T09:01:43.424Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd47d3aa4855f1bdc0bdd5","createdAt":"2022-01-11T09:03:15.770Z","email":"mern12111@gmail.com","fName":"MERN","lName":"React","password":"$2b$08$Gv4mCj6KO0vJJZJBECimWeCimDJQXo7SbkAASYCjf9yQXmCjj6f/i","updatedAt":"2022-01-11T09:03:15.770Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd4a4cfe8f5bfec38b9af4","createdAt":"2022-01-11T09:13:48.144Z","email":"manukvshettytest3@gmail.com","fName":"Manu","lName":"Manu","password":"$2b$08$vBvAMs4I3EsXFkgfxeNavejBTfoB8Zg4MG1gdlcWNoqX6aY2QPRhW","updatedAt":"2022-01-11T09:13:48.144Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd4a74caaf60a7f254a6d6","createdAt":"2022-01-11T09:14:28.570Z","email":"manu@gmail.com","fName":"Manu","lName":"Manu","password":"$2b$08$q2rg1yiCeU0pYwy/BrBED.RWgquqgr9nHITuEGmr.DtDrzTUCNJiG","updatedAt":"2022-01-11T09:14:28.570Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
