@@ -116,10 +116,10 @@ describe("POST /register", () => {
         done();
       });
   });
+});
 
-  /* Login Test Cases */
+/* Login Test Cases */
 describe("POST /login", () => {
-  
   //proper details
   it("given proper login UserData When added Should return status 200, success=true", (done) => {
     const input = data.LoginData;
@@ -135,4 +135,21 @@ describe("POST /login", () => {
       });
   });
 
+  //empty details
+  it("given empty UserData When added Should return status 400", (done) => {
+    const input = data.Empty;
+
+    chai
+      .request(server)
+      .post("/login")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
+  });
 });
