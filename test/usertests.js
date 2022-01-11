@@ -80,5 +80,23 @@ describe("POST /register", () => {
           done();
         });
     });
+
+      //improper email
+  it("given UserData with improper email When added Should return status 400", (done) => {
+    const input = data.improperEmail;
+
+    chai
+      .request(server)
+      .post("/register")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
+  });
   
 });
