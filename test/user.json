@@ -7,12 +7,14 @@
     "email": "deepak@gmail.com",
     "password": "deepak100"
   },
+
   "improperFirstName": {
     "fName": "de1epak",
     "lName": "kumbhar",
     "email": "deepak@gmail.com",
     "password": "deepak100"
   },
+
   "improperLastName": {
     "fName": "deepak",
     "lName": "ku",
@@ -25,5 +27,12 @@
     "lName": "kumbhar",
     "email": "deepakgmail.com",
     "password": "deepak100"
+  },
+
+  "improperPassword": {
+    "fName": "deepak",
+    "lName": "kumbhar",
+    "email": "deepak@gmail.com",
+    "password": "deepak"
   }
 }
