@@ -57,8 +57,8 @@ class ServiceClass {
       return data;
     } else {
       (response.success = false),
-        (response.message = "plase provide note id "),
-        (response.status = 500),
+        (response.message = "Note Not Found"),
+        (response.status = 404),
         (response.data = card);
       return { response };
     }

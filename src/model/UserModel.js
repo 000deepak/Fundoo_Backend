@@ -47,15 +47,19 @@ class ModelClass {
             resolve(response);
           } else {
             resolve({
-              message: "user not found please register first",
+              message: "User Not Found",
               data: data,
-              status: 200,
+              status: 404,
             });
           }
         })
         .catch((err) => {
-          logger.err("inside model err ",err);
-          reject({ success: false, error: err });
+          logger.err("inside model err ", err);
+          (response.success = false),
+            (response.data = err),
+            (response.status = 500),
+            (response.message = "Error Getting Data");
+          reject(response);
         });
     });
   }
@@ -116,13 +120,17 @@ class ModelClass {
             resolve({
               message: "Password Reset Failed ",
               data: data,
-              status: 200,
+              status: 500,
             });
           }
         })
         .catch((err) => {
           logger.error("inside model err ", err);
-          reject({ success: false, error: err });
+          (response.success = false),
+            (response.message = "Error Updating Data"),
+            (response.data = "err"),
+            (response.status = 500);
+          reject(response);
         });
     });
   }

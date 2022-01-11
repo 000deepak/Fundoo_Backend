@@ -7,13 +7,15 @@ chai.should();
 chai.use(chaiHttp);
 
 const rawdata = fs.readFileSync("test/user.json");
-const employeeJSON = JSON.parse(rawdata);
+const data = JSON.parse(rawdata);
 let jwToken = "";
 
-
+/* user registration tests */
 describe("POST /register", () => {
+
+  //proper details
   it("given new UserData When added Should return status 200, success=true", (done) => {
-    const input = employeeJSON.UserData;
+    const input = data.UserData;
     chai
       .request(server)
       .post("/register")
@@ -25,4 +27,24 @@ describe("POST /register", () => {
         done();
       });
   });
+
+  //empty details
+  it("given empty UserData When added Should return status 400", (done) => {
+    const input = data.Empty;
+
+    chai
+      .request(server)
+      .post("/register")
+      .send(input)
+      .end((err, res) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
+        res.should.have.status(500);
+        done();
+      });
+  });
+
 });
+

@@ -397,3 +397,140 @@
 {"level":"info","message":"listening at port 9000"}
 {"level":"info","message":"listening at port 9000"}
 {"data":{"__v":0,"_id":"61dd4a74caaf60a7f254a6d6","createdAt":"2022-01-11T09:14:28.570Z","email":"manu@gmail.com","fName":"Manu","lName":"Manu","password":"$2b$08$q2rg1yiCeU0pYwy/BrBED.RWgquqgr9nHITuEGmr.DtDrzTUCNJiG","updatedAt":"2022-01-11T09:14:28.570Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$pMi5ajVG1ZF211F9TmY/sebeFDIROfso7NkM6dux9rWVJabNhUeje","updatedAt":"2022-01-11T09:43:25.301Z"},"level":"info","message":"inside controller ,successful  Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$pMi5ajVG1ZF211F9TmY/sebeFDIROfso7NkM6dux9rWVJabNhUeje","updatedAt":"2022-01-11T09:43:25.301Z"}],"level":"info","message":"inside controller ,successful  User  Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$pMi5ajVG1ZF211F9TmY/sebeFDIROfso7NkM6dux9rWVJabNhUeje","updatedAt":"2022-01-11T09:43:25.301Z"}],"level":"info","message":"inside controller ,successful  User  Found","status":200,"success":true}
+{"data":"","level":"info","message":"inside controller ,successful  Invalid Password,Please try again","status":200,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$pMi5ajVG1ZF211F9TmY/sebeFDIROfso7NkM6dux9rWVJabNhUeje","updatedAt":"2022-01-11T09:43:25.301Z"}],"level":"info","message":"inside controller ,successful  User  Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTg5NTU2NX0.j3GXjM3l86_wGhEpGnwK8qdVnevjZOA8ZzuqVkvUxs0","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"inside controller ,successful "}
+{"data":"","level":"info","message":"inside controller ,successful  Invalid Password,Please try again","status":200,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTg5NjQ3M30.PRpV8ogadGul4eFUUgVysfIr3qZgCo9gM_iqfO2OnfU","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'status')","stack":"TypeError: Cannot read properties of undefined (reading 'status')\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\UserController.js:27:32\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'get')","stack":"TypeError: Cannot read properties of undefined (reading 'get')\n    at ServerResponse.json (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\response.js:257:20)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\UserController.js:27:42\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"inside controller ,failed Invalid status code: function status(code) {\n  this.statusCode = code;\n  return this;\n}","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: function status(code) {\n  this.statusCode = code;\n  return this;\n}\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.writeHead (node:_http_server:274:11)\n    at ServerResponse._implicitHeader (node:_http_server:265:8)\n    at ServerResponse.end (node:_http_outgoing:871:10)\n    at ServerResponse.send (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\response.js:221:10)\n    at ServerResponse.json (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\response.js:267:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\UserController.js:27:37\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTg5NzIzOH0.FiGq7Hwku6KuZe-jNPAMlj7UTPREBjnD74IlQhohGu8","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"inside controller ,failed Invalid status code: function status(code) {\n  this.statusCode = code;\n  return this;\n}","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: function status(code) {\n  this.statusCode = code;\n  return this;\n}\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.writeHead (node:_http_server:274:11)\n    at ServerResponse._implicitHeader (node:_http_server:265:8)\n    at write_ (node:_http_outgoing:766:9)\n    at ServerResponse.end (node:_http_outgoing:855:5)\n    at ServerResponse.send (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\response.js:221:10)\n    at ServerResponse.json (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\response.js:267:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\UserController.js:27:37"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTg5NzU0OX0.uzQbEhUk7qnYhy_3lBP4TvrvuTlclbZZSOiliNqD94k","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:84:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:84:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"inside controller ,successful "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:83:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:83:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:83:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:83:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed user not found","stack":"Error: user not found\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed [object Object]","stack":"Error: [object Object]\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed invalid user","stack":"Error: invalid user\n    at ServiceClass.loginService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:85:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Invalid Password,Please try again","status":400,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Invalid Password,Please try again","status":400,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Invalid Password,Please try again","status":400,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Invalid Password,Please try again","status":400,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":200,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":500,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}

@@ -9,11 +9,11 @@ class ControllerClass {
       .saveService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,error", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
 
@@ -23,11 +23,11 @@ class ControllerClass {
       .getNotesService(req)
       .then((result) => {
         logger.info("insideget notes", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
 
@@ -37,11 +37,11 @@ class ControllerClass {
       .updateService(req)
       .then((result) => {
         logger.info("inside controller successs", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
 
@@ -51,11 +51,11 @@ class ControllerClass {
       .deleteService(req)
       .then((result) => {
         logger.info("inside controller successs", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
 
@@ -65,11 +65,11 @@ class ControllerClass {
       .archiveService(req)
       .then((result) => {
         logger.info("inside controller successs", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
   //is Deleted
@@ -78,11 +78,11 @@ class ControllerClass {
       .isDeletedService(req)
       .then((result) => {
         logger.info("inside controller successs", result);
-        res.send(JSON.stringify(result));
+        res.status(200).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.send(JSON.stringify(err));
+        res.status(err.status).json(result);
       });
   }
 }

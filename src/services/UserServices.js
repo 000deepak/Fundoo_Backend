@@ -44,8 +44,8 @@ class ServiceClass {
     let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
 
-    if (foundUser.data.length > 0) {
-      return new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
+      if (foundUser.data.length > 0) {
         bcrypt
           .compare(req.body.password, foundUser.data[0].password)
           .then((result) => {
@@ -62,23 +62,26 @@ class ServiceClass {
                 token: token,
               };
 
-              (response.success = true), (response.message = "logged in successfull");
+              (response.success = true), (response.message = "Login Successfull");
               (response.data = obj), (response.status = 200);
               resolve(response);
             } else {
-              (response.success = false), (response.message = "Invalid Password,Please try again");
-              (response.data = ""), (response.status = 200);
-              resolve(response);
+              (response.success = false), (response.message = "Incorrect Password");
+              (response.data = ""), (response.status = 401);
+              reject(response);
             }
           })
           .catch((err) => {
-            console.log(err, "inside proise");
-            (response.success = false), (response.message = "Invalid Password,Please try again");
-            (response.data = ""), (response.status = 400);
-            resolve(response);
+            (response.success = false), (response.message = "Error In Checking Password");
+            (response.data = err), (response.status = 500);
+            reject(response);
           });
-      });
-    }
+      } else {
+        (response.success = false), (response.message = "User Not Found");
+        (response.data = ""), (response.status = 404);
+        reject(response);
+      }
+    });
   }
 
   //forget password service
@@ -100,10 +103,8 @@ class ServiceClass {
       looger.info("Sending email to ", foundUser.data[0].email);
 
       await nodemailer.sendEmail(foundUser.data[0].email, link);
-      (response.success = true), 
-      (response.message = "Link sent to email Successfully");
-      (response.data = ""), 
-      (response.status = 200);
+      (response.success = true), (response.message = "Link sent to email Successfully");
+      (response.data = ""), (response.status = 200);
 
       return response;
     } else {

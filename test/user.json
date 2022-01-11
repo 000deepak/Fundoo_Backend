@@ -1,8 +1,11 @@
 {
+  "Empty": {},
+
   "UserData": {
-    "fName": "Manu",
-    "lName": "Manu",
-    "email": "manu@gmail.com",
-    "password": "2897n@@nU"
+    "fName": "deepak",
+    "lName": "kumbhar",
+    "email": "deepak@gmail.com",
+    "password": "deepak100"
   }
+
 }
