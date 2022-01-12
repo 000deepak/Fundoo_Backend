@@ -535,3 +535,252 @@
 {"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
 {"level":"info","message":"listening at port 9000"}
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMDg5NH0.IT08ugGY547rFlqru8dskibIVS2LO9SjqBGZAE3acJw","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMDk0MH0.7FOzTgjUDi8c8V3CKKOPwHDEdpRMC6Fqc72bnQTZq9g","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTAwOH0.jY77S51a2QmH8Mf0dH_t9niinRwvNxDKae4rqG6hWYc","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTAyMn0.G4uC81bRFq_f8kMJ1tW7W1D_Uxa2Yoqmlj6CRD4Wl6Q","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA2N30.W7lPqhuurGZAT_nulBgUId-1PjbtBx2leGtHnElYKsY","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA5MH0.JDHPyuvZiXK5nCwLRywPoMtKWWovs87Dw2GPJyinPBg","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA5Mn0.fWwEbix1mjbA9Op1AuEO8-4fxWTtVhzsC4fM6y0wH-o","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA5Mn0.fWwEbix1mjbA9Op1AuEO8-4fxWTtVhzsC4fM6y0wH-o","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA5M30.AS7HoTtzWaSgqZAodnoSO-dVWFigTI00hK_RUdQS7_I","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTA5NH0.SMFsBWzrVbfN0gXd6JglrjWToivjgI6Hs0hdyyB3f0U","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTEzMn0.1leitzJm9JG7cqQi_EKjbbSkhvQwmQKHoMf2FR3wL50","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTE3M30.BuFkOD_eUuCJwY26fsWOBZTIE76HdEidyYDUSQfFah8","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTkxMTE4NH0.yLQcgMO7neXi3vzBMhYR1p6L0KPquT0qgWjjF15iNRs","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2MjI3M30.khUy9mgyQ-W9OHg3cJLkDY1MH2vZipca0Ta38wUiJr8","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2MjI3M30.khUy9mgyQ-W9OHg3cJLkDY1MH2vZipca0Ta38wUiJr8","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"error","message":"inside controller ,failed looger is not defined","stack":"ReferenceError: looger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2MjMyNX0.5K6fofeoo9LESOmv7PejF6yFlPW-r07X0AJfh7qT7Dk","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"error","message":"inside controller ,failed looger is not defined","stack":"ReferenceError: looger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed looger is not defined","stack":"ReferenceError: looger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:103:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed logger is not defined","stack":"ReferenceError: logger is not defined\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:105:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"Sending email to "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"inside controller ,failed Cannot read properties of undefined (reading 'email')","stack":"TypeError: Cannot read properties of undefined (reading 'email')\n    at ServiceClass.forgotPasswordService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:99:55)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"Sending email to "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2Mzc4Mn0.JhrKME4fAn7TQVB9zjbncou4BrS6YvFOBSVVAKVu-uY","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NTE4MH0.KPh2KCJdgI0Fbmc4dNs7rS-sRaE4zk0JTYLAOoQ-dWA","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NTIwNX0.ijV0hlszqzUHIvRMfS5JXP4MbyAb-Y8qJ7ZumcDziWY","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NTQ1MX0.jLEtsrWG4eiVVMjsHAyxVm0yN9-xTLxz-Ks6dYfZ55g","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NTY0NH0.qWkODXS6f8n4RsHlyp9nXNgQ4Vg-MU5CH1HmctfkhTw","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NjU5N30.VUtuMqs6xnZYYwkGM0k_Xj3_FL0QFJrVRyAKUM0mkS0","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641966597,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$pMi5ajVG1ZF211F9TmY/sebeFDIROfso7NkM6dux9rWVJabNhUeje","updatedAt":"2022-01-11T09:43:25.301Z"}],"level":"info","message":"Resetting Password  User  Found","status":200,"success":true}
+{"data":{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$j8CO6woNv8.Ka5chR2aQduQx3Y6JNKvMdfFkDXMkgLfrIVUTwCNmy","updatedAt":"2022-01-12T05:51:27.416Z"},"level":"info","message":"inside controller ,successful  User Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"inside controller ,successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzEyMH0.jNL6k3CnmocotC5_Cl1sUT60WdKHIbvCiaXSUPHW6JM","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzI0M30.NZVrMquhsMibHy6_WGvmuy-XU6Ce1SkqpZ6L2r3YXNQ","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzM1OH0.zcW98NlUpib7Ja3203YOWjgTOoW83RqBDxAeToB2Fzs","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzQ2MX0.IadcsBo8FdmJ0CgQyiY2K6vjs8SNGFl0VlDT0cbyjUE","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzUzOH0.ZBD0Ffx-g57mc3pBglFZTENZuhxjNp5hPFbU3lfGEBg","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzYzNX0.TUbDK2TRk_gWRE4af-Gck_qxZWodB1DKbPwKZdVHXeI","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2NzY4MH0.0KUz3DMOAWTb92GNwdOkEgO_P0JWealdGXLkJ6oIjto","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2Nzc4MH0.unLSv--OSwcIsniOUYlknCHhixf9uynMBEojVcHGXEE","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2Nzg2MH0.H-PykOyVXjNlGR2wJqBJnxs6rJFGY99iLPOjJ7XD1_w","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2Nzk1OX0.JvwCu_IOoYbTD55bKDMtWd5hGD_E3HCAWQzAM4k7v4U","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641967959,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$j8CO6woNv8.Ka5chR2aQduQx3Y6JNKvMdfFkDXMkgLfrIVUTwCNmy","updatedAt":"2022-01-12T05:51:27.416Z"}],"level":"info","message":"Resetting Password  User  Found","status":200,"success":true}
+{"data":{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$RIJBxhQxaE3XhfA/80FA.O6oPykjaK3EnIUBH2sD7hwKRegMnbX7O","updatedAt":"2022-01-12T06:13:09.534Z"},"level":"info","message":"inside controller ,successful  Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2ODE2NH0.0Fk6C5TXLNb6ztFia1A381XHUzmltasO_Y-0nWjoYcY","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2ODIxMH0.dkljJKETNqLWmdgIhbklJsGMHajNv0_OInlqknwG8XM","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk2ODg0Nn0.ec8-SkSWfrUdY7y5vR-SYuTCvvE0AvJdePbAG09sNks","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641968846,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$RIJBxhQxaE3XhfA/80FA.O6oPykjaK3EnIUBH2sD7hwKRegMnbX7O","updatedAt":"2022-01-12T06:13:09.534Z"}],"level":"info","message":"Resetting Password  User  Found","status":200,"success":true}
+{"data":{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$mo25SPwPTxnu98peWTkZ3uoq3HVyLoTF.VS74GH.7cM2pvNW8bF6m","updatedAt":"2022-01-12T06:27:26.265Z"},"level":"info","message":"inside controller ,successful  Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk3MDAxMX0.elebO015fEUE4YsEdcVGquZ6ZZ9cK74ll-95-_3HWuQ","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641970011,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$mo25SPwPTxnu98peWTkZ3uoq3HVyLoTF.VS74GH.7cM2pvNW8bF6m","updatedAt":"2022-01-12T06:27:26.265Z"}],"level":"info","message":"Resetting Password  User  Found","status":200,"success":true}
+{"data":{"__v":0,"_id":"61dd513dff1df4cd4be1fc3c","createdAt":"2022-01-11T09:43:25.301Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":"$2b$08$c4DICriVNoYkTBSTKV42WOGSNx5pTaEs54iM.R12TURnUxSISbp4e","updatedAt":"2022-01-12T06:46:51.531Z"},"level":"info","message":"inside controller ,successful  Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk3MDMzMn0.zo43h3tYsj2Eimx8LvaqmZRY0iSgz4zw4_d7_ggVD-4","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641970332,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}

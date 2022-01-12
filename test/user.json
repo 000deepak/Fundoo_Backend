@@ -38,16 +38,24 @@
 
   "LoginData": {
     "email": "deepak@gmail.com",
-    "password": "deepak100"
+    "password": "deepak"
   },
 
   "improperLoginEmail": {
     "email": "depak@gmail.com",
     "password": "deepak"
   },
-  
+
   "improperLoginPassword": {
     "email": "deepak@gmail.com",
     "password": "depak"
+  },
+
+  "correctEmail": {
+    "email": "deepak@gmail.com"
+  },
+
+  "incorrectEmail": {
+    "email": "eepak@gmail.com"
   }
 }

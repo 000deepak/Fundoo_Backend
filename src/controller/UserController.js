@@ -24,6 +24,7 @@ class RegisterClass {
       .loginService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
+        //console.log(res.body.data.token);
         res.status(200).json(result);
       })
       .catch((err) => {
@@ -38,11 +39,11 @@ class RegisterClass {
       .forgotPasswordService(req)
       .then((result) => {
         logger.info("inside controller ,successful ", result);
-        res.status(200).json(result);
+        res.status(result.status).json(result);
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.status(err.status).json(err);
+        res.status(500).json(err);
       });
   }
 
@@ -55,6 +56,7 @@ class RegisterClass {
         res.status(200).json(result);
       })
       .catch((err) => {
+        console.log("hi");
         logger.error("inside controller ,failed", err);
         res.status(err.status).json(err);
       });

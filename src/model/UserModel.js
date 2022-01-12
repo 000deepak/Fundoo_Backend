@@ -114,7 +114,7 @@ class ModelClass {
             (response.success = true),
               (response.data = data),
               (response.status = 200),
-              (response.message = "User Password Updated");
+              (response.message = "Password Updated");
             resolve(response);
           } else {
             resolve({

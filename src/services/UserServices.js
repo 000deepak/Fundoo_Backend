@@ -3,6 +3,7 @@ const model = require("../model/UserModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("../middleware/nodeMailer");
+const logger = require("../middleware/logger");
 
 //create Db
 const userModel = new model.ModelClass();
@@ -93,23 +94,25 @@ class ServiceClass {
     };
     let email = { email: req.body.email };
     let foundUser = await userModel.findUser(email);
-    if (foundUser) {
+    
+    if (foundUser.data.length >0) {
       //jwt
       let token = jwt.sign({ email: foundUser.data[0].email, id: foundUser.data[0].id }, "secret");
       let address = "http://localhost:3000/resetpassword/";
 
       let link = address + token;
 
-      looger.info("Sending email to ", foundUser.data[0].email);
+      logger.info("Sending email to ", foundUser.data[0].email);
 
       await nodemailer.sendEmail(foundUser.data[0].email, link);
-      (response.success = true), (response.message = "Link sent to email Successfully");
+      (response.success = true), (response.message = "Email sent Successfully");
       (response.data = ""), (response.status = 200);
 
       return response;
     } else {
       (response.success = false), (response.message = "User Not Found");
-      (response.data = ""), (response.status = 200);
+      (response.data = ""), (response.status = 404);
+      logger.info("email not found");
       return response;
     }
   }
@@ -137,7 +140,7 @@ class ServiceClass {
       return updatedUser;
     } else {
       (response.success = false), (response.message = "User Not Found");
-      (response.data = ""), (response.status = 200);
+      (response.data = ""), (response.status = 404);
       return response;
     }
   }

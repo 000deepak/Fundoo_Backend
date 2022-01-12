@@ -12,7 +12,7 @@ let router = express.Router();
 router.post("/register", validate.signUp, controller.registerControl);
 router.post("/login", validate.login, controller.loginControl);
 router.post("/forgotpassword", validate.email, controller.forgotPasswordController);
-router.patch("/resetpassword", auth, controller.resetPasswordController);
+router.patch("/resetpassword", auth, validate.confirmPassword, controller.resetPasswordController);
 
 router.post("/addnotes", auth, notesCon.saveController);
 router.get("/getnotes", auth, notesCon.getNotesController);
