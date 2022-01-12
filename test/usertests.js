@@ -277,7 +277,7 @@ describe("PATCH /resetpassword", () => {
   });
 
   //improper  password
-  it.only("given UserData with improper password When added Should return status 500", (done) => {
+  it("given UserData with improper password When added Should return status 500", (done) => {
     const input = data.newImproperPassword;
 
     chai
@@ -291,6 +291,53 @@ describe("PATCH /resetpassword", () => {
           return done();
         }
         res.should.have.status(500);
+        done();
+      });
+  });
+});
+
+/* add notes*/
+describe("Post /addnotes", () => {
+  beforeEach((done) => {
+    chai
+      .request(server)
+      .post("/login")
+      .send(data.LoginData)
+      .end((err, res) => {
+        token = res.body.data.token;
+        console.log(token);
+        res.should.have.status(200);
+        done();
+      });
+  });
+
+  //empty details
+  it("given empty note details When added Should return status 500, success=true", (done) => {
+    const input = data.Empty;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(500);
+        response.body.should.have.property("success").eq(true);
+        done();
+      });
+  });
+
+  //proper details
+  it("given proper note details When added Should return status 200, success=true", (done) => {
+    const input = data.note;
+    chai
+      .request(server)
+      .post("/resetpassword")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.have.property("success").eq(true);
+        response.body.should.have.property("message").eq("Notes Saved");
         done();
       });
   });

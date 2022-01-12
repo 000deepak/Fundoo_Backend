@@ -76,16 +76,16 @@ class ModelClass {
       req
         .save()
         .then((data) => {
-          (response.success = true), (response.message = "notes saved");
+          (response.success = true), (response.message = "Notes Saved");
           (response.data = data), (response.status = 200);
-          resolve({ response });
+          resolve(response);
         })
         .catch((err) => {
           logger.error("inside model err ", err);
           (response.success = false),
-            (response.message = "notes are not saved");
-          (response.data = err), (response.status = 400);
-          reject({ response });
+            (response.message = "Error In Saving Notes");
+          (response.data = err), (response.status = 500);
+          reject(response);
         });
     });
   }

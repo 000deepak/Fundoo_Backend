@@ -58,7 +58,7 @@
   "incorrectEmail": {
     "email": "eepak@gmail.com"
   },
-  
+
   "newPassword": {
     "confirmPassword": "deepak3"
   },
@@ -66,4 +66,6 @@
   "newImproperPassword": {
     "confirmPassword": "deepak"
   }
+
+
 }

@@ -22,7 +22,7 @@ class ControllerClass {
     service
       .getNotesService(req)
       .then((result) => {
-        logger.info("insideget notes", result);
+        logger.info("save notes controller ", result);
         res.status(200).json(result);
       })
       .catch((err) => {

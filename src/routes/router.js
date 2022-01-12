@@ -2,6 +2,7 @@
 let express = require("express");
 let controller = require("../controller/UserController");
 const validate = require("../validators/UserValidation");
+const noteValidate = require("../validators/NotesValidation")
 const auth = require("../middleware/authentication");
 const notesCon = require("../controller/NotesController");
 
@@ -14,7 +15,7 @@ router.post("/login", validate.login, controller.loginControl);
 router.post("/forgotpassword", validate.email, controller.forgotPasswordController);
 router.patch("/resetpassword", auth, validate.confirmPassword, controller.resetPasswordController);
 
-router.post("/addnotes", auth, notesCon.saveController);
+router.post("/addnotes", auth,noteValidate.note, notesCon.saveController);
 router.get("/getnotes", auth, notesCon.getNotesController);
 router.put("/update", auth, notesCon.updateController);
 router.delete("/delete", auth, notesCon.deleteController);
