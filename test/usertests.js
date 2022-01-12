@@ -245,6 +245,7 @@ describe("POST /forgotpassword", () => {
   });
 });
 
+
 /* resetpassword */
 describe("PATCH /resetpassword", () => {
   beforeEach((done) => {
@@ -272,25 +273,6 @@ describe("PATCH /resetpassword", () => {
         response.should.have.status(200);
         response.body.should.have.property("success").eq(true);
         response.body.should.have.property("message").eq("Password Updated");
-        done();
-      });
-  });
-
-  //improper  password
-  it.only("given UserData with improper password When added Should return status 500", (done) => {
-    const input = data.newImproperPassword;
-
-    chai
-      .request(server)
-      .patch("/resetpassword")
-      .set({ token: token })
-      .send(input)
-      .end((err, res) => {
-        if (err) {
-          console.log("Plz check again & enter with proper format");
-          return done();
-        }
-        res.should.have.status(500);
         done();
       });
   });
