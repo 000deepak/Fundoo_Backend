@@ -41,5 +41,19 @@ describe("Post /addnotes", () => {
       });
   });
 
-
+  //proper details
+  it("given proper note details When added Should return status 200, success=true", (done) => {
+    const input = notedata.note;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.have.property("success").eq(true);
+        response.body.should.have.property("message").eq("Notes Saved");
+        done();
+      });
+  });
 });
