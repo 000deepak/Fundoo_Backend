@@ -1,3 +1,27 @@
 {
-  "Empty": {}
+  "Empty": {},
+
+  "note": {
+    "title": "dee67",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": true,
+    "isDeleted": true
+  },
+
+  "isArchivedString": {
+    "title": "dee67",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": 234,
+    "isDeleted": true
+  },
+
+  "isArchivedBoolean": {
+    "title": "dee67",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": true,
+    "isDeleted": true
+  }
 }

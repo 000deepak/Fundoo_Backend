@@ -28,7 +28,7 @@ describe("Post /addnotes", () => {
   });
 
   //empty details
-  it.only("given empty note details When added Should return status 500, success=true", (done) => {
+  it("given empty note details When added Should return status 500, success=true", (done) => {
     const input = notedata.Empty;
     chai
       .request(server)
@@ -53,6 +53,34 @@ describe("Post /addnotes", () => {
         response.should.have.status(200);
         response.body.should.have.property("success").eq(true);
         response.body.should.have.property("message").eq("Notes Saved");
+        done();
+      });
+  });
+
+  //string value for is Archived
+  it.only("given string value for isArchived When added Should return status 500, success=true", (done) => {
+    const input = notedata.isArchivedString;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(500);
+        done();
+      });
+  });
+
+  //boolean value for is Archived
+  it.only("given boolean value for isArchived When added Should return status 200, success=true", (done) => {
+    const input = notedata.isArchivedBoolean;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
         done();
       });
   });

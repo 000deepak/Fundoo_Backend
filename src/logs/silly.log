@@ -852,3 +852,15 @@
 {"level":"info","message":"listening at port 9000"}
 {"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk4OTEwOH0.hXhBOmRZRwJCbLakjxpEJR7-5DvmEKm29X7_ywosW2c","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
 {"email":"deepak@gmail.com","iat":1641989108,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepakkumbhar1920@gmail.com","iat":1641800683,"id":"61cc677300b88edea5958a1e","level":"info","message":" req.body.data "}
+{"email":"deepakkumbhar1920@gmail.com","iat":1641800683,"id":"61cc677300b88edea5958a1e","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61dec8586d2270bd44583b1f","colour":"#fff","createdAt":"2022-01-12T12:23:52.963Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-12T12:23:52.963Z","userId":"61cc677300b88edea5958a1e"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk5MDQ0NH0.dWtp1WLueR1cXhlkJHeQFTLXzPs4ruEs239iBWycfIQ","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641990444,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZGQ1MTNkZmYxZGY0Y2Q0YmUxZmMzYyIsImlhdCI6MTY0MTk5MDQ0NH0.dWtp1WLueR1cXhlkJHeQFTLXzPs4ruEs239iBWycfIQ","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1641990444,"id":"61dd513dff1df4cd4be1fc3c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61dec92c2e564823d3060495","colour":"#fff","createdAt":"2022-01-12T12:27:24.248Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-12T12:27:24.248Z","userId":"61dd513dff1df4cd4be1fc3c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
