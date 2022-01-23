@@ -1,3 +1,11 @@
+/**
+ * @purpose      To eastablish connection with db when fn is called in index
+ * @module       config
+ * @file         database.js
+ * @author       deepak 
+ * @since        9/1/2022
+ */
+
 const mongoose = require("mongoose");
 require("dotenv").config();
 

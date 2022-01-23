@@ -1,3 +1,11 @@
+/**
+ * @purpose      To make logical operations and query the db
+ * @module       service
+ * @file         UserService.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
 //imports
 const model = require("../model/UserModel");
 const bcrypt = require("bcrypt");
@@ -31,7 +39,13 @@ class ServiceClass {
 
       return savedData;
     } else {
-      return foundUser;
+      let user = {
+        firstName:foundUser.data[0].fName ,
+        lastName:foundUser.data[0].lName ,
+        email: foundUser.data[0].email,
+        message:foundUser.data[0].message,
+      }
+      return user;
     }
   }
 

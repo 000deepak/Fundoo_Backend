@@ -1,3 +1,11 @@
+/**
+ * @purpose      To make logical operations and query the db
+ * @module       service
+ * @file         NotesService.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
 //import
 const ModelImport = require("../model/NotesModel");
 const notesModel = new ModelImport.ModelClass();

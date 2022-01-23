@@ -1,4 +1,13 @@
-//imports
+/**
+ * @purpose      forwarding and excecuting the requests
+ * @module       controller
+ * @file         UserController.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
+
+/imports
 const { response } = require("express");
 const logger = require("../middleware/logger");
 let service = require("../services/UserServices");
@@ -14,7 +23,7 @@ class RegisterClass {
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.status(err.status).json(err);
+        res.status(500).json(err);
       });
   }
 

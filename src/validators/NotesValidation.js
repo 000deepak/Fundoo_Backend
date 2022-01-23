@@ -1,3 +1,11 @@
+/**
+ * @purpose      To validate note data 
+ * @module       service
+ * @file         NotesValidation.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
 class NoteValidationClass {
   note = (req, res, next) => {
     req.check("title").isLength({ min: 1 }).withMessage("title is required");

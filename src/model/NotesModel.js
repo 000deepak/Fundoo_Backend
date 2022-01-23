@@ -1,3 +1,11 @@
+/**
+ * @purpose      To create reference for moongoose,develop schema and create model instance.
+ * @module       model
+ * @file         NotesModel.js
+ * @author       deepak 
+ * @since        9/1/2022
+ */
+
 //import
 const mongoose = require("mongoose");
 const logger = require("../middleware/logger");
@@ -6,6 +14,8 @@ const NotesSchema = new mongoose.Schema(
   {
     title: {
       type: String,
+      required: true,
+      minlength: 2,
     },
     description: {
       type: String,
@@ -21,6 +31,7 @@ const NotesSchema = new mongoose.Schema(
     },
     userId: {
       type: String,
+      required: true,
     },
   },
   {
@@ -99,7 +110,7 @@ class ModelClass {
         data: "",
       };
 
-      console.log(req,newNote);
+      logger.info(req,newNote);
       NotesDb.updateOne(req, newNote, { new: true })
         .then((result) => {
           response.success = true;

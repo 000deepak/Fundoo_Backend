@@ -1,3 +1,13 @@
+/**
+ * @purpose      To develop an api for employee-payroll application
+ * @module       index
+ * @description  creating app,mount middleware and establish db connection
+ * @author       deepak
+ * @version      1.0 
+ * @since        9/1/2022
+ * 
+ */
+
 //import .env
 const dotenv = require('dotenv');
 dotenv.config({ path: '.env' });

@@ -1,20 +1,38 @@
+/**
+ * @purpose      To create reference for moongoose,develop schema and create model instance.
+ * @module       model
+ * @file         UserModel.js
+ * @author       deepak 
+ * @since        9/1/2022
+ */
+
 //imports
 const mongoose = require("mongoose");
+const logger = require("../middleware/logger");
 
 //db Schema
 const userSchema = new mongoose.Schema(
   {
     fName: {
       type: String,
+      required: true,
+      minlength: 2,
+      trim: true,
     },
     lName: {
       type: String,
+      required: true,
+      minlength: 2,
     },
     email: {
       type: String,
+      required: true,
+      minlength: 6,
     },
     password: {
       type: String,
+      required: true,
+      minlength: 6,
     },
   },
   {
@@ -34,7 +52,6 @@ class ModelClass {
       success: "",
       status: 200,
     };
-
     return new Promise((resolve, reject) => {
       userDb
         .find(req)
@@ -72,14 +89,23 @@ class ModelClass {
       data: "",
       status: 200,
     };
+    let user = {
+      firstName: "",
+      lastName: "",
+      email: "",
+    };
 
     return new Promise((resolve, reject) => {
       req
         .save()
         .then((data) => {
+          user.firstName=data.fName,
+          user.lastName=data.fName,
+          user.email=data.email,
+
           (response.success = true),
-            (response.message = "Registered Succesfully"),
-            (response.data = data),
+          (response.message = "Registered Succesfully"),
+            (response.data = user),
             (response.status = 200);
           resolve(response);
         })

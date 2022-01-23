@@ -1,3 +1,11 @@
+/**
+ * @purpose      To validate user data 
+ * @module       service
+ * @file         UserValidation.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
 class ValidationClass {
   signUp = (req, res, next) => {
     req

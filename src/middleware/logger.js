@@ -1,3 +1,12 @@
+/**
+ * @purpose      To create logger
+ * @module       middleware
+ * @file         logger.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
+
 const winston = require("winston");
 const path = require("path");
 

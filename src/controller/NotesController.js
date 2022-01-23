@@ -1,3 +1,12 @@
+/**
+ * @purpose      forwarding and excecuting the requests
+ * @module       controller
+ * @file         NotesController.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
+
 //import service reference
 const service = require("../services/NotesService");
 const logger = require('../middleware/logger')

@@ -1,3 +1,11 @@
+/**
+ * @purpose      To send mail to given user email
+ * @module       middleware
+ * @file         nodemailer.js
+ * @author       deepak
+ * @since        9/1/2022
+ */
+
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 

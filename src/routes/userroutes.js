@@ -1,12 +1,10 @@
 /**
  * @purpose      To forward control to handler fn when given path is hit.
  * @module       routes
- * @file         index.js
+ * @file         userroutes.js
  * @author       deepak 
  * @since        9/1/2022
- * 
  */
-
 
 //import
 let express = require("express");
