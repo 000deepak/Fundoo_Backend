@@ -22,7 +22,7 @@ let note =require("./noteroutes");
  */
 const routes = () => {
   router.get("/", (req, res) => {
-    res.json("Welcome to employee payroll application");
+    res.json("Welcome to Fundoo Notes application");
   });
   router.use("/users", user);
   router.use("/notes", note);
