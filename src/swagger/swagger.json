@@ -208,7 +208,7 @@
           "201": {
             "description": "Create note succesfully !!"
           },
-          "400": {
+          "401": {
             "description": "Please enter Valid Token"
           },
           "500": {
@@ -243,7 +243,7 @@
           "$ref": "#/definitions/GetNote"
         },
         "responses": {
-          "201": {
+          "200": {
             "description": "Succesfully !! retrieve all notes."
           },
           "401": {
@@ -402,7 +402,7 @@
           "$ref": "#/definitions/GetNote"
         },
         "responses": {
-          "201": {
+          "200": {
             "description": "Succesfully !! retrieve all notes."
           },
           "401": {
@@ -440,7 +440,7 @@
           "$ref": "#/definitions/GetNote"
         },
         "responses": {
-          "201": {
+          "200": {
             "description": "Succesfully !! retrieve all notes."
           },
           "401": {

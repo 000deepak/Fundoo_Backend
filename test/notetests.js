@@ -6,11 +6,8 @@ const server = require("../index");
 chai.should();
 chai.use(chaiHttp);
 
-const userrawdata = fs.readFileSync("test/user.json");
-const userdata = JSON.parse(userrawdata);
-
-const noterawdata = fs.readFileSync("test/notes.json");
-const notedata = JSON.parse(noterawdata);
+const rawdata = fs.readFileSync("test/notes.json");
+const data = JSON.parse(rawdata);
 
 /* add notes*/
 describe("Post /addnotes", () => {
@@ -18,7 +15,7 @@ describe("Post /addnotes", () => {
     chai
       .request(server)
       .post("/login")
-      .send(userdata.LoginData)
+      .send(data.LoginData)
       .end((err, res) => {
         token = res.body.data.token;
         console.log(token);
@@ -29,7 +26,7 @@ describe("Post /addnotes", () => {
 
   //empty details
   it("given empty note details When added Should return status 500, success=true", (done) => {
-    const input = notedata.Empty;
+    const input = data.Empty;
     chai
       .request(server)
       .post("/addnotes")
@@ -43,7 +40,7 @@ describe("Post /addnotes", () => {
 
   //proper details
   it("given proper note details When added Should return status 200, success=true", (done) => {
-    const input = notedata.note;
+    const input = data.note;
     chai
       .request(server)
       .post("/addnotes")
@@ -58,8 +55,8 @@ describe("Post /addnotes", () => {
   });
 
   //string value for is Archived
-  it.only("given string value for isArchived When added Should return status 500, success=true", (done) => {
-    const input = notedata.isArchivedString;
+  it("given string value for isArchived When added Should return status 500, success=true", (done) => {
+    const input = data.isArchivedString;
     chai
       .request(server)
       .post("/addnotes")
@@ -72,8 +69,8 @@ describe("Post /addnotes", () => {
   });
 
   //boolean value for is Archived
-  it.only("given boolean value for isArchived When added Should return status 200, success=true", (done) => {
-    const input = notedata.isArchivedBoolean;
+  it("given boolean value for isArchived When added Should return status 200, success=true", (done) => {
+    const input = data.isArchivedBoolean;
     chai
       .request(server)
       .post("/addnotes")
@@ -81,6 +78,54 @@ describe("Post /addnotes", () => {
       .send(input)
       .end((error, response) => {
         response.should.have.status(200);
+        done();
+      });
+  });
+});
+
+/* get notes*/
+describe("get /getnotes", () => {
+  beforeEach((done) => {
+    chai
+      .request(server)
+      .post("/login")
+      .send(data.LoginData)
+      .end((err, res) => {
+        token = res.body.data.token;
+        console.log(token);
+        res.should.have.status(200);
+        done();
+      });
+  });
+
+  //Incorrect jwt
+  it("given proper note details When added Should return status 200, success=true", (done) => {
+    const input = data.note;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.have.property("success").eq(true);
+        response.body.should.have.property("message").eq("Notes Saved");
+        done();
+      });
+  });
+
+  //correct jwt
+  it("given proper note details When added Should return status 200, success=true", (done) => {
+    const input = data.note;
+    chai
+      .request(server)
+      .post("/addnotes")
+      .set({ token: token })
+      .send(input)
+      .end((error, response) => {
+        response.should.have.status(200);
+        response.body.should.have.property("success").eq(true);
+        response.body.should.have.property("message").eq("Notes Saved");
         done();
       });
   });

@@ -56,7 +56,6 @@ class RegisterClass {
         res.status(200).json(result);
       })
       .catch((err) => {
-        console.log("hi");
         logger.error("inside controller ,failed", err);
         res.status(err.status).json(err);
       });

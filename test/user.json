@@ -1,6 +1,11 @@
 {
   "Empty": {},
 
+  "LoginData": {
+    "email": "deepak@gmail.com",
+    "password": "deepak100"
+  },
+
   "UserData": {
     "fName": "deepak",
     "lName": "kumbhar",
@@ -32,11 +37,6 @@
   "improperPassword": {
     "fName": "deepak",
     "lName": "kumbhar",
-    "email": "deepak@gmail.com",
-    "password": "deepak"
-  },
-
-  "LoginData": {
     "email": "deepak@gmail.com",
     "password": "deepak"
   },

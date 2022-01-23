@@ -134,3 +134,42 @@
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-12T06:44:29.011Z"}
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-12T06:45:54.210Z"}
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-12T06:51:30.611Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:52:13.456Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:52:13.514Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:52:13.795Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:52:13.842Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:52:13.892Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:52:14.028Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:52:14.097Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.218Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.312Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.474Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:53:51.507Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.550Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.689Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:53:51.756Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.342Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.435Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.592Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:54:32.633Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.682Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.853Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:54:32.933Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:56:33.168Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:58:16.600Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:59:58.702Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:59:58.792Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T06:59:58.979Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T06:59:59.028Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:01:16.880Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T07:01:16.928Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:16:04.584Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:16:04.646Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:16:04.891Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T07:16:04.943Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:16:41.164Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T07:16:41.211Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:17:07.446Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:17:07.505Z"}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-15T07:17:07.742Z"}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-15T07:17:07.792Z"}

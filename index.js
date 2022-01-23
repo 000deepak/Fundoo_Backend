@@ -24,7 +24,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 
 //link Router
-app.use("/", router);
+app.use("/", router());
 
 //bind app to port
 app.listen(process.env.PORT, () => {

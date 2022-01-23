@@ -1,6 +1,11 @@
 {
   "Empty": {},
 
+  "LoginData": {
+    "email": "deepak@gmail.com",
+    "password": "deepak100"
+  },
+
   "note": {
     "title": "dee67",
     "description": "Kumhbar",
