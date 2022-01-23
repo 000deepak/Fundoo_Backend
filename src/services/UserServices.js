@@ -12,6 +12,7 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const nodemailer = require("../middleware/nodeMailer");
 const logger = require("../middleware/logger");
+const { response } = require("express");
 
 //create Db
 const userModel = new model.ModelClass();
@@ -43,7 +44,7 @@ class ServiceClass {
         firstName:foundUser.data[0].fName ,
         lastName:foundUser.data[0].lName ,
         email: foundUser.data[0].email,
-        message:foundUser.data[0].message,
+        message:foundUser.message,
       }
       return user;
     }
@@ -158,7 +159,7 @@ class ServiceClass {
       return response;
     }
   }
-}
+} 
 
 //exports
 module.exports = new ServiceClass();

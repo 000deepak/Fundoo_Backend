@@ -1,6 +1,6 @@
 /**
  * @purpose      To divert control to user or note routes when given path is hit.
- * @module       index
+ * @module       routes
  * @file         index.js
  * @author       deepak
  * @since        9/1/2022

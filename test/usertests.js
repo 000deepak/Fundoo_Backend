@@ -17,9 +17,13 @@ describe("POST /register", () => {
     const input = data.UserData;
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
-      .end((error, response) => {
+      .end((err, response) => {
+        if (err) {
+          console.log("Plz check again & enter with proper format");
+          return done();
+        }
         response.should.have.status(200);
         response.body.should.have.property("success").eq(true);
         response.body.should.have.property("message").eq("Registered Succesfully");
@@ -33,7 +37,7 @@ describe("POST /register", () => {
 
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -51,7 +55,7 @@ describe("POST /register", () => {
 
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -69,7 +73,7 @@ describe("POST /register", () => {
 
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -87,7 +91,7 @@ describe("POST /register", () => {
 
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -105,7 +109,7 @@ describe("POST /register", () => {
 
     chai
       .request(server)
-      .post("/register")
+      .post("/users/register")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -125,7 +129,7 @@ describe("POST /login", () => {
     const input = data.LoginData;
     chai
       .request(server)
-      .post("/login")
+      .post("/users/login")
       .send(input)
       .end((error, response) => {
         response.should.have.status(200);
@@ -141,7 +145,7 @@ describe("POST /login", () => {
 
     chai
       .request(server)
-      .post("/login")
+      .post("/users/login")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -159,7 +163,7 @@ describe("POST /login", () => {
 
     chai
       .request(server)
-      .post("/login")
+      .post("/users/login")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -177,7 +181,7 @@ describe("POST /login", () => {
 
     chai
       .request(server)
-      .post("/login")
+      .post("/users/login")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -197,7 +201,7 @@ describe("POST /forgotpassword", () => {
     const input = data.correctEmail;
     chai
       .request(server)
-      .post("/forgotpassword")
+      .post("/users/forgotpassword")
       .send(input)
       .end((error, response) => {
         response.should.have.status(200);
@@ -213,7 +217,7 @@ describe("POST /forgotpassword", () => {
 
     chai
       .request(server)
-      .post("/forgotpassword")
+      .post("/users/forgotpassword")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -231,7 +235,7 @@ describe("POST /forgotpassword", () => {
 
     chai
       .request(server)
-      .post("/forgotpassword")
+      .post("/users/forgotpassword")
       .send(input)
       .end((err, res) => {
         if (err) {
@@ -249,7 +253,7 @@ describe("PATCH /resetpassword", () => {
   beforeEach((done) => {
     chai
       .request(server)
-      .post("/login")
+      .post("/users/login")
       .send(data.LoginData)
       .end((err, res) => {
         token = res.body.data.token;
@@ -281,7 +285,7 @@ describe("PATCH /resetpassword", () => {
 
     chai
       .request(server)
-      .patch("/resetpassword")
+      .patch("/users/resetpassword")
       .set({ token: token })
       .send(input)
       .end((err, res) => {

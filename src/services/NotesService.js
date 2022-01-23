@@ -47,7 +47,7 @@ class ServiceClass {
 
     let oldNote = await notesModel.findNotes(query);
 
-    if (oldNote.data.length) {
+    if (oldNote.data.length>0) {
   
       var newNote = {
         title: req.body.title ? req.body.title : oldNote.data.title,
@@ -66,8 +66,7 @@ class ServiceClass {
     } else {
       (response.success = false),
         (response.message = "Note Not Found"),
-        (response.status = 404),
-        (response.data = card);
+        (response.status = 404)
       return { response };
     }
   }

@@ -199,3 +199,19 @@
 {"level":"error","message":"inside controller ,failed data is not defined","stack":"ReferenceError: data is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:35:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
 {"level":"error","message":"inside controller ,failed data is not defined","stack":"ReferenceError: data is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:35:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
 {"level":"error","message":"inside controller ,failed data is not defined","stack":"ReferenceError: data is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:35:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"data":{"email":"deep12@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deep123@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}

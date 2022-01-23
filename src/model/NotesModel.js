@@ -15,7 +15,6 @@ const NotesSchema = new mongoose.Schema(
     title: {
       type: String,
       required: true,
-      minlength: 2,
     },
     description: {
       type: String,
@@ -165,6 +164,7 @@ class ModelClass {
         .catch((err) => {
           logger.error("inside model err ", result);
           response.success = false;
+          response.status = 500;
           response.message = err;
           reject(response);
         });

@@ -107,7 +107,7 @@ class ModelClass {
           (response.message = "Registered Succesfully"),
             (response.data = user),
             (response.status = 200);
-          resolve(response);
+          reject(response);
         })
         .catch((err) => {
           logger.error("inside model err ", err);

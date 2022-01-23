@@ -6,8 +6,7 @@
  * @since        9/1/2022
  */
 
-
-/imports
+//imports
 const { response } = require("express");
 const logger = require("../middleware/logger");
 let service = require("../services/UserServices");
@@ -23,7 +22,7 @@ class RegisterClass {
       })
       .catch((err) => {
         logger.error("inside controller ,failed", err);
-        res.status(500).json(err);
+        res.status(err.status).json(err);
       });
   }
 

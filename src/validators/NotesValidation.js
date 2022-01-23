@@ -1,6 +1,6 @@
 /**
  * @purpose      To validate note data 
- * @module       service
+ * @module       validators
  * @file         NotesValidation.js
  * @author       deepak
  * @since        9/1/2022

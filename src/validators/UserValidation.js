@@ -1,6 +1,6 @@
 /**
  * @purpose      To validate user data 
- * @module       service
+ * @module       validators
  * @file         UserValidation.js
  * @author       deepak
  * @since        9/1/2022

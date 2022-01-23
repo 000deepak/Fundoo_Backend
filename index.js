@@ -1,5 +1,5 @@
 /**
- * @purpose      To develop an api for employee-payroll application
+ * @purpose      To develop an apis for Fundoo notes application
  * @module       index
  * @description  creating app,mount middleware and establish db connection
  * @author       deepak
@@ -18,6 +18,10 @@ let express = require("express");
 //import middleware
 const logger = require('./src/middleware/logger')
 var expressValidator = require('express-validator');
+const swaggerjsdoc = require("swagger-jsdoc");
+const swaggerUi = require("swagger-ui-express");
+const swaggerDocument = require("./src/swagger/swagger.json");
+
 let router = require("./src/routes/router");
 
 //create app
@@ -25,13 +29,7 @@ let app = express();
 app.use(expressValidator());
 app.use(express.json());
 
-const swaggerjsdoc = require("swagger-jsdoc");
-const swaggerUi = require("swagger-ui-express");
-const swaggerDocument = require("./src/swagger/swagger.json");
-
-
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
 
 //link Router
 app.use("/", router());

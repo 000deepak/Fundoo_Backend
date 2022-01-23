@@ -6,6 +6,14 @@
     "password": "deepak100"
   },
 
+  "notitle": {
+    "title": "",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": true,
+    "isDeleted": true
+  },
+
   "note": {
     "title": "dee67",
     "description": "Kumhbar",
@@ -28,5 +36,34 @@
     "colour": "#fff",
     "isArchived": true,
     "isDeleted": true
+  },
+
+  "noteId1": {
+    "noteId": "61ed1d78d6d7c773f81e29d9",
+    "title": "dee69",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": true,
+    "isDeleted": true
+  },
+
+  "noteId2": {
+    "noteId": "61e92744f862ef2018dd8e65",
+    "title": "dee69",
+    "description": "Kumhbar",
+    "colour": "#fff",
+    "isArchived": true,
+    "isDeleted": true
+  },
+
+  "deleteId": {
+    "noteId": "61ed2dd9e6c8788328dbb1b8"
+  },
+
+  "deleteId2": {
+    "noteId": "61ed2dd9e6c878832"
   }
+
+
+
 }
