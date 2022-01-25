@@ -39,8 +39,8 @@
   },
 
   "noteId1": {
-    "noteId": "61ed1d78d6d7c773f81e29d9",
-    "title": "dee69",
+    "noteId": "61ef8a9a1b52fe39de385b71",
+    "title": "dee70",
     "description": "Kumhbar",
     "colour": "#fff",
     "isArchived": true,
@@ -63,7 +63,4 @@
   "deleteId2": {
     "noteId": "61ed2dd9e6c878832"
   }
-
-
-
 }

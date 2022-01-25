@@ -215,3 +215,9 @@
 {"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
 {"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"dee123@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"d@gmail.com","firstName":"deepkku","lastName":"deepkku"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"dee@gmail.com","firstName":"sdfsdferfg","lastName":"sdfsdferfg"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}

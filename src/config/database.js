@@ -3,7 +3,7 @@
  * @module       config
  * @file         database.js
  * @author       deepak 
- * @since        9/1/2022
+ * @since        27/12/2022
  */
 
 const mongoose = require("mongoose");
@@ -14,7 +14,7 @@ class DBconnection {
       mongoose.connect(process.env.DB, {
         useNewUrlParser: true
       }).then(() => {
-        console.log("Successfully connected to the database");
+        console.log(`Successfully connected to the database at port ${process.env.PORT}`);
       }).catch(err => {
         console.log("Could not connect to the database. Exiting now...", err);
         process.exit();

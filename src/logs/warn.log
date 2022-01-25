@@ -215,3 +215,9 @@
 {"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false,"timestamp":"2022-01-23T08:13:01.276Z"}
 {"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false,"timestamp":"2022-01-23T08:13:01.326Z"}
 {"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-23T09:18:09.106Z"}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-24T12:58:47.758Z"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-25T05:28:01.396Z"}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-25T06:19:42.481Z"}
+{"data":{"email":"dee123@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-25T06:30:04.540Z"}
+{"data":{"email":"d@gmail.com","firstName":"deepkku","lastName":"deepkku"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-25T06:38:19.926Z"}
+{"data":{"email":"dee@gmail.com","firstName":"sdfsdferfg","lastName":"sdfsdferfg"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true,"timestamp":"2022-01-25T07:11:59.246Z"}
