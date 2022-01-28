@@ -3,7 +3,7 @@
  * @module       model
  * @file         UserModel.js
  * @author       deepak 
- * @since        27/12/2022
+ * @since        27/12/2021
  */
 
 //imports
@@ -56,22 +56,22 @@ class ModelClass {
       userDb
         .find(req)
         .then((data) => {
-          if (data.length > 0) {
+          if (data.length == 0) {
             (response.success = true),
               (response.data = data),
-              (response.status = 200),
-              (response.message = "User  Found");
+              (response.status = 404),
+              (response.message = "User Not Found");
             resolve(response);
           } else {
-            resolve({
-              message: "User Not Found",
-              data: data,
-              status: 404,
-            });
+            (response.success = false),
+            (response.data = data),
+            (response.status = 409),
+            (response.message = "User Already Exists")
+            resolve(response);
           }
         })
         .catch((err) => {
-          logger.err("inside model err ", err);
+          logger.err("Error Getting Data", err);
           (response.success = false),
             (response.data = err),
             (response.status = 500),
@@ -106,14 +106,14 @@ class ModelClass {
           (response.success = true),
           (response.message = "Registered Succesfully"),
             (response.data = user),
-            (response.status = 200);
-          reject(response);
+            (response.status = 201);
+          resolve(response);
         })
         .catch((err) => {
           logger.error("inside model err ", err);
           (response.success = false),
             (response.message = "Registration Failed"),
-            (response.data = "err"),
+            (response.data = err),
             (response.status = 500);
           reject(response);
         });
@@ -130,7 +130,7 @@ class ModelClass {
     };
 
     return new Promise((resolve, reject) => {
-      console.log("Resetting password of userId", userId);
+      logger.info("Resetting password of userId", userId);
       userDb
         .findByIdAndUpdate(userId, update, {
           new: true,
@@ -143,7 +143,7 @@ class ModelClass {
               (response.message = "Password Updated");
             resolve(response);
           } else {
-            resolve({
+            reject({
               message: "Password Reset Failed ",
               data: data,
               status: 500,
@@ -153,8 +153,8 @@ class ModelClass {
         .catch((err) => {
           logger.error("inside model err ", err);
           (response.success = false),
-            (response.message = "Error Updating Data"),
-            (response.data = "err"),
+            (response.message ="Error Updating Data"),
+            (response.data =err),
             (response.status = 500);
           reject(response);
         });

@@ -3,7 +3,7 @@
  * @module       service
  * @file         UserService.js
  * @author       deepak
- * @since       27/12/2022
+ * @since       27/12/2021
  */
 
 //imports
@@ -40,13 +40,9 @@ class ServiceClass {
 
       return savedData;
     } else {
-      let user = {
-        firstName:foundUser.data[0].fName ,
-        lastName:foundUser.data[0].lName ,
-        email: foundUser.data[0].email,
-        message:foundUser.message,
-      }
-      return user;
+      foundUser.data[0].password=" ";
+
+      return(foundUser);
     }
   }
 

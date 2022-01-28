@@ -3,7 +3,7 @@
  * @module       controller
  * @file         NotesController.js
  * @author       deepak
- * @since        27/12/2022
+ * @since        27/12/2021
  */
 
 
@@ -17,12 +17,12 @@ class ControllerClass {
     service
       .saveService(req)
       .then((result) => {
-        logger.info("inside controller ,successful ", result);
-        res.status(200).json(result);
+        logger.info("save notes,successful ", result);
+        res.status(result.status).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,error", err);
-        res.status(err.status).json(result);
+        logger.error("save notes,failed", err);
+        res.status(err.status).json(err);
       });
   }
 
@@ -31,12 +31,12 @@ class ControllerClass {
     service
       .getNotesService(req)
       .then((result) => {
-        logger.info("save notes controller ", result);
+        logger.info("get notes success", result);
         res.status(200).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,failed", err);
-        res.status(err.status).json(result);
+        logger.error("get notes fail", err);
+        res.status(err.status).json(err);
       });
   }
 
@@ -45,12 +45,12 @@ class ControllerClass {
     service
       .updateService(req)
       .then((result) => {
-        logger.info("inside controller successs", result);
-        res.status(200).json(result);
+        logger.info("update note successs", result);
+        res.status(result.status).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,failed", err);
-        res.status(err.status).json(result);
+        logger.error("update note failed", err);
+        res.status(err.status).json(err);
       });
   }
 
@@ -59,12 +59,12 @@ class ControllerClass {
     service
       .deleteService(req)
       .then((result) => {
-        logger.info("inside controller successs", result);
+        logger.info("delete note successs", result);
         res.status(200).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,failed", err);
-        res.status(err.status).json(result);
+        logger.error("delete note ,failed", err);
+        res.status(err.status).json(err);
       });
   }
 
@@ -73,12 +73,12 @@ class ControllerClass {
     service
       .archiveService(req)
       .then((result) => {
-        logger.info("inside controller successs", result);
+        logger.info("get archived notes,successs", result);
         res.status(200).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,failed", err);
-        res.status(err.status).json(result);
+        logger.error("get archived notes,failed", err);
+        res.status(err.status).json(err);
       });
   }
   //is Deleted
@@ -86,12 +86,12 @@ class ControllerClass {
     service
       .isDeletedService(req)
       .then((result) => {
-        logger.info("inside controller successs", result);
+        logger.info("get deleted notes", result);
         res.status(200).json(result);
       })
       .catch((err) => {
-        logger.error("inside controller ,failed", err);
-        res.status(err.status).json(result);
+        logger.error("get deleted notes,failed", err);
+        res.status(err.status).json(err);
       });
   }
 }

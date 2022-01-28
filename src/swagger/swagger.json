@@ -193,10 +193,10 @@
                   "type": "string"
                 },
                 "isArchived": {
-                  "type": "string"
+                  "type": "boolean"
                 },
                 "isDeleted": {
-                  "type": "string"
+                  "type": "boolean"
                 }
               }
             }
@@ -273,24 +273,14 @@
           },
           {
             "in": "body",
-            "name": "noteId",
-            "description": "Enter note id to delete",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "noteId": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          {
-            "in": "body",
             "name": "note",
             "description": "Note body",
             "schema": {
               "type": "object",
               "properties": {
+                "noteId": {
+                  "type": "string"
+                },
                 "title": {
                   "type": "string"
                 },
@@ -301,10 +291,10 @@
                   "type": "string"
                 },
                 "isArchived": {
-                  "type": "string"
+                  "type": "boolean"
                 },
                 "isDeleted": {
-                  "type": "string"
+                  "type": "boolean"
                 }
               }
             }

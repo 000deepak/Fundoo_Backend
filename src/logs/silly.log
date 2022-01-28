@@ -1505,3 +1505,942 @@
 {"data":{"email":"dee123@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
 {"data":{"email":"d@gmail.com","firstName":"deepkku","lastName":"deepkku"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
 {"data":{"email":"dee@gmail.com","firstName":"sdfsdferfg","lastName":"sdfsdferfg"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deep@gmail.com","firstName":"deep","lastName":"deep"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deep@gmail.com","fName":"deep","lName":"kumb","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBAZ21haWwuY29tIiwiaWQiOiI2MWVmYmRiZjYxY2Q2ZWZjMjk3OTZhMjYiLCJpYXQiOjE2NDMxMDE2NTl9.em0zNi2wFeC2jqH--vMYjCtUUCJGO7yeHvxG-RboKik","userId":"61efbdbf61cd6efc29796a26"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61efbe0061cd6efc29796a29","colour":"string","createdAt":"2022-01-25T09:08:16.036Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-25T09:08:16.036Z","userId":"61efbdbf61cd6efc29796a26"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61efbe0061cd6efc29796a29","colour":"string","createdAt":"2022-01-25T09:08:16.036Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-25T09:08:16.036Z","userId":"61efbdbf61cd6efc29796a26"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":"true","isDeleted":"true","level":"info","message":{},"title":"updated","userId":"61efbdbf61cd6efc29796a26"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61efbe0061cd6efc29796a29","colour":"string","createdAt":"2022-01-25T09:08:16.036Z","description":"string","isArchived":true,"isDeleted":true,"title":"updated","updatedAt":"2022-01-25T09:09:06.003Z","userId":"61efbdbf61cd6efc29796a26"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61efbe0061cd6efc29796a29","colour":"string","createdAt":"2022-01-25T09:08:16.036Z","description":"string","isArchived":true,"isDeleted":true,"title":"updated","updatedAt":"2022-01-25T09:09:06.003Z","userId":"61efbdbf61cd6efc29796a26"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"inside controller ,successful  Email sent Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643101659,"id":"61efbdbf61cd6efc29796a26","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61efbdbf61cd6efc29796a26","createdAt":"2022-01-25T09:07:11.475Z","email":"deep@gmail.com","fName":"deep","lName":"kumb","password":"$2b$08$QhxGWxgx7meFfMCiwTeSYujjGNPkFOmfd7myhvVKhHH5V5/GJX2nq","updatedAt":"2022-01-25T09:07:11.475Z"}],"level":"info","message":"Resetting Password  User  Found","status":200,"success":true}
+{"data":{"__v":0,"_id":"61efbdbf61cd6efc29796a26","createdAt":"2022-01-25T09:07:11.475Z","email":"deep@gmail.com","fName":"deep","lName":"kumb","password":"$2b$08$0oEDDurYo8QtNFwc5XHnNuqVKV8wp9ao0W4ja6A9fzer6Nil9MqF.","updatedAt":"2022-01-25T09:11:40.164Z"},"level":"info","message":"inside controller ,successful  Password Updated","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deep1234@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":{"email":"deep@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"inside controller ,failed User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"inside controller ,failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"inside controller ,failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZWZkZjk4Zjg5ZmE3NjJmZGQwNWNhMyIsImlhdCI6MTY0MzExMDMxNH0.YvKlIraomz_-iWaS43McrAOBSUICozXvTBzDQXr210Y","userId":"61efdf98f89fa762fdd05ca3"},"level":"info","message":"inside controller ,successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643110314,"id":"61efdf98f89fa762fdd05ca3","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61efdfbdf89fa762fdd05ca7","colour":"#fff","createdAt":"2022-01-25T11:32:13.386Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-25T11:32:13.386Z","userId":"61efdf98f89fa762fdd05ca3"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643110314,"id":"61efdf98f89fa762fdd05ca3","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61efdfbdf89fa762fdd05ca7"},"title":"dee689","userId":"61efdf98f89fa762fdd05ca3"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643110314,"id":"61efdf98f89fa762fdd05ca3","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61efdfbdf89fa762fdd05ca7"},"title":"dee6890","userId":"61efdf98f89fa762fdd05ca3"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643110314,"id":"61efdf98f89fa762fdd05ca3","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61efdfbdf89fa762fdd05ca7"},"title":"dee68901","userId":"61efdf98f89fa762fdd05ca3"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643110314,"id":"61efdf98f89fa762fdd05ca3","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61efdfbdf89fa762fdd05ca7"},"title":"dee689010","userId":"61efdf98f89fa762fdd05ca3"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjE2NDk0YTI0YTcyMjEwZTk3MWQ3ZSIsImlhdCI6MTY0MzIwOTg5NX0.aHtYU_P2VUNYmW2wRpFR1S3E8IGSXAPp6oMNuTGdYDY","userId":"61f16494a24a72210e971d7e"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN","level":"info","message":"successful  User  Found"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN","level":"info","message":"successful  User Already Exists"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:50:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"error","message":"failed reject is not defined","stack":"ReferenceError: reject is not defined\n    at ServiceClass.registerService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\UserServices.js:53:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f16494a24a72210e971d7e","createdAt":"2022-01-26T15:11:16.311Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T15:11:16.311Z"}],"level":"info","message":"successful  User Already Exists","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f16494a24a72210e971d7e","createdAt":"2022-01-26T15:11:16.311Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T15:11:16.311Z"}],"level":"info","message":"successful  User Already Exists","status":200,"success":true}
+{"data":[{"__v":0,"_id":"61f16494a24a72210e971d7e","createdAt":"2022-01-26T15:11:16.311Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T15:11:16.311Z"}],"level":"info","message":"successful  User Already Exists","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f16494a24a72210e971d7e","createdAt":"2022-01-26T15:11:16.311Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T15:11:16.311Z"}],"level":"info","message":"successful  User Already Exists","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f16494a24a72210e971d7e","createdAt":"2022-01-26T15:11:16.311Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T15:11:16.311Z"}],"level":"info","message":"successful  User Already Exists","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjE2NDk0YTI0YTcyMjEwZTk3MWQ3ZSIsImlhdCI6MTY0MzIxMDk0OH0.2EunMPA5UGwGboWmdk2DidltbbjaEocqYBq3pXw5D9U","userId":"61f16494a24a72210e971d7e"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":[],"level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f1765bff9453f1f33f2db2","createdAt":"2022-01-26T16:27:07.510Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:27:07.510Z"}],"level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f1765bff9453f1f33f2db2","createdAt":"2022-01-26T16:27:07.510Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:27:07.510Z"}],"level":"info","message":"successful  User Registered Successfully","status":404,"success":false}
+{"data":[{"__v":0,"_id":"61f1765bff9453f1f33f2db2","createdAt":"2022-01-26T16:27:07.510Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:27:07.510Z"}],"level":"info","message":"successful  User Registered Successfully","status":404,"success":false}
+{"data":[{"__v":0,"_id":"61f1765bff9453f1f33f2db2","createdAt":"2022-01-26T16:27:07.510Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:27:07.510Z"}],"level":"info","message":"successful  User Registered Successfully","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"data":[{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:30:10.070Z"}],"level":"info","message":"successful  User Already Exists","status":404,"success":false}
+{"data":[{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:30:10.070Z"}],"level":"info","message":"successful  User Already Exists","status":404,"success":false}
+{"data":[{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:30:10.070Z"}],"level":"info","message":"successful  User Already Exists","status":404,"success":false}
+{"data":[{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-26T16:30:10.070Z"}],"level":"info","message":"successful  User Already Exists","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjE3NzEyZmJjNTIzMTlhYWQ3M2I5YyIsImlhdCI6MTY0MzIxNDY3NH0.h2bsos1SMlSAD7PnOJORWUp_-FaaslcRkULP0c7GA2Q","userId":"61f17712fbc52319aad73b9c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjE3NzEyZmJjNTIzMTlhYWQ3M2I5YyIsImlhdCI6MTY0MzIxNDc1MH0.jgCcRP287JCPtRPv5wCvaEm8QFRi7Tbp3lGiOWIwA6M","userId":"61f17712fbc52319aad73b9c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f177e071ed5cee77aeed26","colour":"#fff","createdAt":"2022-01-26T16:33:36.870Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-26T16:33:36.870Z","userId":"61f17712fbc52319aad73b9c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f177e071ed5cee77aeed26","colour":"#fff","createdAt":"2022-01-26T16:33:36.870Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-26T16:33:36.870Z","userId":"61f17712fbc52319aad73b9c"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f177e071ed5cee77aeed26"},"title":"dee689010","userId":"61f17712fbc52319aad73b9c"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f177e071ed5cee77aeed26"},"title":"dee689010","userId":"61f17712fbc52319aad73b9c"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f177e071ed5cee77aeed26","colour":"#fff","createdAt":"2022-01-26T16:33:36.870Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee689010","updatedAt":"2022-01-26T16:34:51.260Z","userId":"61f17712fbc52319aad73b9c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f177e071ed5cee77aeed26","colour":"#fff","createdAt":"2022-01-26T16:33:36.870Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee689010","updatedAt":"2022-01-26T16:34:51.260Z","userId":"61f17712fbc52319aad73b9c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"email":"deepak@gmail.com","iat":1643214750,"id":"61f17712fbc52319aad73b9c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":"$2b$08$NUAwRojTpcMmjVvfSPXkh.vbsevFh81Depi6ChHLIkcO2QQGYRspm","updatedAt":"2022-01-26T16:30:10.070Z"}],"level":"info","message":"Resetting Password  User Already Exists","status":404,"success":false}
+{"data":{"__v":0,"_id":"61f17712fbc52319aad73b9c","createdAt":"2022-01-26T16:30:10.070Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":"$2b$08$xgnzmB5xtgqP9jWlHYQ2NOWnV9vmYFT6.ndMy8Cx3OciImX.WZchO","updatedAt":"2022-01-26T16:37:31.395Z"},"level":"info","message":"successful  Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"dee@gmail.com","firstName":"deepa","lastName":"deepa"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"dee@gmail.com","fName":"deepa","lName":"kumbha","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZUBnbWFpbC5jb20iLCJpZCI6IjYxZjE4ODk0ZjBjODM5YThkZmUyYTZmOSIsImlhdCI6MTY0MzIxOTQ5OH0.xpX-qnV35o0M-_l5z83CkG8aPHIVXlstZWZZAxKX8XE","userId":"61f18894f0c839a8dfe2a6f9"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"data":[{"__v":0,"_id":"61f21d656910beff18c840b9","createdAt":"2022-01-27T04:19:49.323Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-27T04:19:49.323Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":[{"__v":0,"_id":"61f21d656910beff18c840b9","createdAt":"2022-01-27T04:19:49.323Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-27T04:19:49.323Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f21d656910beff18c840b9","createdAt":"2022-01-27T04:19:49.323Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-27T04:19:49.323Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f21fb292df1490adbfad19","createdAt":"2022-01-27T04:29:38.053Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":" ","updatedAt":"2022-01-27T04:29:38.053Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f22010c0d2e1efa87fc2ab","createdAt":"2022-01-27T04:31:12.924Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":" ","updatedAt":"2022-01-27T04:31:12.924Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f22035917fb1c4ed3fc480","createdAt":"2022-01-27T04:31:49.723Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-27T04:31:49.723Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f22069248ddbf7b0dc53ed","createdAt":"2022-01-27T04:32:41.995Z","email":"deepak@gmail.com","fName":"MERN","lName":"MERN","password":" ","updatedAt":"2022-01-27T04:32:41.995Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyMTMyMDU3MTVkYzYxZTk0NDEyZiIsImlhdCI6MTY0MzI1ODE2Mn0.W5YU9gv9F1y_xDJjGZ6EilTBw315SV-qLDka5r6aTug","userId":"61f2213205715dc61e94412f"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyMTMyMDU3MTVkYzYxZTk0NDEyZiIsImlhdCI6MTY0MzI1ODE2M30.YQ7mPmpKFRCn0qOOge4SX_Uoc5UA9P152npZ13DzEcU","userId":"61f2213205715dc61e94412f"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643258163,"id":"61f2213205715dc61e94412f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f2213205715dc61e94412f","createdAt":"2022-01-27T04:36:02.714Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":" ","updatedAt":"2022-01-27T04:36:02.714Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f2213205715dc61e94412f","createdAt":"2022-01-27T04:36:02.714Z","email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","password":" ","updatedAt":"2022-01-27T04:36:02.714Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyMTMyMDU3MTVkYzYxZTk0NDEyZiIsImlhdCI6MTY0MzI1ODkyMn0.1WKAM8ar2W2p3ZRg-tBLUqr1yaqVAOyKt6r_qVmq0Ws","userId":"61f2213205715dc61e94412f"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyMTMyMDU3MTVkYzYxZTk0NDEyZiIsImlhdCI6MTY0MzI1ODkyM30.oWlDveSjiTAPiNmACjFsOG0Ls72MvdS-97hx6rLAyCk","userId":"61f2213205715dc61e94412f"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643258923,"id":"61f2213205715dc61e94412f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1ODk0NX0.T3e7MqsGDyGlFAoxmClCZchLPxaWJQ64-eGtENa5bcE","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1ODk0NX0.T3e7MqsGDyGlFAoxmClCZchLPxaWJQ64-eGtENa5bcE","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643258945,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA0OX0.hWkOXydBxwvwE1zMb2gpwhw0-J5_H9TkGaIqyETmSvA","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259049,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA0OX0.hWkOXydBxwvwE1zMb2gpwhw0-J5_H9TkGaIqyETmSvA","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259049,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f224a945f94f587fd803f5","colour":"#fff","createdAt":"2022-01-27T04:50:49.830Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.830Z","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA0OX0.hWkOXydBxwvwE1zMb2gpwhw0-J5_H9TkGaIqyETmSvA","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259049,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA0OX0.hWkOXydBxwvwE1zMb2gpwhw0-J5_H9TkGaIqyETmSvA","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259049,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61ef8a9a1b52fe39de385b71"},"title":"dee70","userId":"61f22441d36c9beb209b762a"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61ef8a9a1b52fe39de385b71"},"title":"dee70","userId":"61f22441d36c9beb209b762a"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61e92744f862ef2018dd8e65"},"title":"dee69","userId":"61f22441d36c9beb209b762a"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MH0.jvmfjjdNImPWeG7Oj_-U1EvEb5gQMxIzTKi8iqszn5c","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259050,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MX0.3YDbgl2lRD6eOMHLT5SovQJuXJivHNBQOzkDBxIq-us","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTA1MX0.3YDbgl2lRD6eOMHLT5SovQJuXJivHNBQOzkDBxIq-us","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259051,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTM4OH0.GhZofCugqjMHZZwh3oXUmtZeZYvOtrJogVDo3MP2xCc","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTQ3M30.7PuargIlnOb50RCsal8e-pIdK7ZIoOzO3UKiDf7GIzU","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTQ3M30.7PuargIlnOb50RCsal8e-pIdK7ZIoOzO3UKiDf7GIzU","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259473,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTUxN30.IWx_y6rKRrvW6o7rDd6mTARhvMaohtU-aH_N8Ej3lug","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTUxN30.IWx_y6rKRrvW6o7rDd6mTARhvMaohtU-aH_N8Ej3lug","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259517,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTYxN30.NU76boJjT7QFteqUSYZfbmzdWo5mnlLQfp4OXxpUyFI","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTYxN30.NU76boJjT7QFteqUSYZfbmzdWo5mnlLQfp4OXxpUyFI","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259617,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTY2OH0.Ijytfg4P_C0aFMuEV9SnnkzqwYV984-e4xs3oY_oj7M","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjIyNDQxZDM2YzliZWIyMDliNzYyYSIsImlhdCI6MTY0MzI1OTY2OH0.Ijytfg4P_C0aFMuEV9SnnkzqwYV984-e4xs3oY_oj7M","userId":"61f22441d36c9beb209b762a"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643259668,"id":"61f22441d36c9beb209b762a","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f224a945f94f587fd803f9","colour":"#fff","createdAt":"2022-01-27T04:50:49.971Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T04:50:49.971Z","userId":"61f22441d36c9beb209b762a"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":{"email":"tdeepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYyMjdiNzI2MTY4MmY3ZGZlY2I5MmYiLCJpYXQiOjE2NDMyNTk4NDB9.oGILv3Uidm7kZ8QaLA7VeJaAf9xngD08RvvTQrVtsxA","userId":"61f227b7261682f7dfecb92f"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f227cf261682f7dfecb932","colour":"#fff","createdAt":"2022-01-27T05:04:15.234Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T05:04:15.234Z","userId":"61f227b7261682f7dfecb92f"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803f"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803f"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":" "},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":" "},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":" "},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \" \" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \" \" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\" \"","value":" ","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \" \" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\" \"","value":" ","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f9"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f91\"","value":"61f224a945f94f587fd803f91","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f91\"","value":"61f224a945f94f587fd803f91","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f91\"","value":"61f224a945f94f587fd803f91","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f91\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f91\"","value":"61f224a945f94f587fd803f91","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803f91"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803f9"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"id":"61f224a945f94f587fd803f"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:91:10\n    at new Promise (<anonymous>)\n    at ModelClass.findOne (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:88:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:91:10\n    at new Promise (<anonymous>)\n    at ModelClass.findOne (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:88:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f9"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:91:10\n    at new Promise (<anonymous>)\n    at ModelClass.findOne (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:88:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:91:10\n    at new Promise (<anonymous>)\n    at ModelClass.findOne (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:88:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:49:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f224a945f94f587fd803f\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f224a945f94f587fd803f\"","value":"61f224a945f94f587fd803f","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f7"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f5"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f5"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f5"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f5"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f224a945f94f587fd803f5"},"title":"dee689010","userId":"61f227b7261682f7dfecb92f"}
+{"data":{"acknowledged":true,"matchedCount":0,"modifiedCount":0,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs","response":{"data":"","message":"Note Not Found","status":404,"success":false}}
+{"level":"info","message":"listening at port 9000"}
+{"email":"tdeepak@gmail.com","iat":1643259840,"id":"61f227b7261682f7dfecb92f","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2NzE4NH0.CJNbACRKoMN2nrshh3GB7qO_JP01oiCSb8--KpEJezM","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643267184,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODgxNH0.PwScJgs2dN_1aDLQpaa8vyFuC6CExjQJQb50w4RdV2s","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268814,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24ace93f8303df5515001","colour":"#fff","createdAt":"2022-01-27T07:33:34.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:33:34.737Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODgxNH0.PwScJgs2dN_1aDLQpaa8vyFuC6CExjQJQb50w4RdV2s","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268814,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODg1NH0.Q2h0augQw3wHGFzzKAnv2pLYIiXk9pj84CrU5lSRVpI","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268854,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24af678be69da7c79ae70","colour":"#fff","createdAt":"2022-01-27T07:34:14.050Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:34:14.050Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODg1NH0.Q2h0augQw3wHGFzzKAnv2pLYIiXk9pj84CrU5lSRVpI","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268854,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODk3NH0.-QVgeLnRYMqc0W0tN4pEAdqL108n-e_eKEp8fDT2uyA","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268974,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f24ace93f8303df5515001"},"title":"dee69","userId":"61f2445878f594b363e1e10c"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODk3NX0.prEGVEd10Hc3p4lBOxtPUPb96lt1hvM4u12no0D3MiI","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268975,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f24ace93f8303df5515001","colour":"#fff","createdAt":"2022-01-27T07:33:34.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee69","updatedAt":"2022-01-27T07:36:15.058Z","userId":"61f2445878f594b363e1e10c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2ODk5OH0.tSEY9Zacdh3IxySUGvrfG_9sTxM6giWdQtZ2caNwKHs","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643268998,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f24ace93f8303df5515001","colour":"#fff","createdAt":"2022-01-27T07:33:34.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee69","updatedAt":"2022-01-27T07:36:15.058Z","userId":"61f2445878f594b363e1e10c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTEyNn0.t8EHGxinscgw9VKF3cCmHQITnguq-Ewt8g8BO3VjUCU","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269277,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269277,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24c9dfbe917490a289fc7","colour":"#fff","createdAt":"2022-01-27T07:41:17.599Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.599Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269277,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269277,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24c9dfbe917490a289fcb","colour":"#fff","createdAt":"2022-01-27T07:41:17.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.737Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3N30.RQf3xT3idnABDETaWSEQVHnD5rBQtpQWT15udl8fYuE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269277,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f24ace93f8303df5515001","colour":"#fff","createdAt":"2022-01-27T07:33:34.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee69","updatedAt":"2022-01-27T07:36:15.058Z","userId":"61f2445878f594b363e1e10c"},{"__v":0,"_id":"61f24c9dfbe917490a289fc7","colour":"#fff","createdAt":"2022-01-27T07:41:17.599Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.599Z","userId":"61f2445878f594b363e1e10c"},{"__v":0,"_id":"61f24c9dfbe917490a289fcb","colour":"#fff","createdAt":"2022-01-27T07:41:17.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.737Z","userId":"61f2445878f594b363e1e10c"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f24c9dfbe917490a289fc7","colour":"#fff","createdAt":"2022-01-27T07:41:17.599Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.599Z","userId":"61f2445878f594b363e1e10c"},{"__v":0,"_id":"61f24c9dfbe917490a289fcb","colour":"#fff","createdAt":"2022-01-27T07:41:17.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.737Z","userId":"61f2445878f594b363e1e10c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269278,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f24c9dfbe917490a289fc7","colour":"#fff","createdAt":"2022-01-27T07:41:17.599Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.599Z","userId":"61f2445878f594b363e1e10c"},{"__v":0,"_id":"61f24c9dfbe917490a289fcb","colour":"#fff","createdAt":"2022-01-27T07:41:17.737Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:41:17.737Z","userId":"61f2445878f594b363e1e10c"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OH0.3M-QyFXVFtG8pT3K7wtM5-wE7aGDmQCqMA3d-w2wfWg","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"level":"info","message":"email not found"}
+{"data":"","level":"info","message":"successful  User Not Found","status":404,"success":false}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI3OX0.qfx-CmK0OwNJHMaoO7TOjLqhQ2YFCBD6eCfk-GKtlNs","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269279,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTI5NH0.uoPXkTTh2sNelgGixsLqI4u8aaz6HWjWbFp_XjN2KeM","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTM4NH0.M5L9-yTadIRmey6O3e7bTskL3pQV9nufIdPrPsCwbXY","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269384,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24d086b9744dc73b42cb0","colour":"#fff","createdAt":"2022-01-27T07:43:04.942Z","description":"Note","isArchived":true,"isDeleted":true,"title":"Testing","updatedAt":"2022-01-27T07:43:04.942Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTQ2Mn0.gV2ccMAX2mSN82qTEy4OqgpMZSe4GBqlNjAKomS1jEk","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269462,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTU2MH0.1QKquA37z-q-AIkaTNwjnTmMss--a7fu02paY_hFV2M","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269560,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTY0M30.yp_dVX-h-dkD6uffUKdQzYg4a4P2WibnbQ-IQy-h2sM","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269643,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f24d086b9744dc73b42cb0"},"title":"dee70","userId":"61f2445878f594b363e1e10c"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTY3Nn0.ygIGLHH33kSHh5qrgHQWzdqw-zLeTM9RMwntwBbmxds","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269676,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f24d086b9744dc73b42cb0"},"title":"dee70","userId":"61f2445878f594b363e1e10c"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTcxNX0.kEpeZIiNBwENWNxdiS3XhI8QDNpFNGnqMGjKgWHgwV4","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTc3M30.AGqqZaQ4OJ531zH6xALKYFkLXv9eD29b3L_KqRM1MUY","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI2OTgzMH0.DKrwC8XRsIxHupScE5TK4dPDRVyOc60hjC44vPzAfEE","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"error","message":"inside controller ,failed response is not defined","stack":"ReferenceError: response is not defined\n    at ServiceClass.deleteService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:76:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24f215e2a79caa7309121","colour":"#fff","createdAt":"2022-01-27T07:52:01.661Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:52:01.661Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"info","message":"inside controller successs"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24f836c1eedf23ff89b98","colour":"#fff","createdAt":"2022-01-27T07:53:39.435Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:53:39.435Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24f9a6c1eedf23ff89b9c","colour":"#fff","createdAt":"2022-01-27T07:54:02.088Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:54:02.088Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f24fd96c1eedf23ff89ba0","colour":"#fff","createdAt":"2022-01-27T07:55:05.974Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:55:05.974Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f25056321767ebf3419f77","colour":"#fff","createdAt":"2022-01-27T07:57:10.108Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T07:57:10.108Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"error","message":"inside controller ,failed response is not defined","stack":"ReferenceError: response is not defined\n    at ServiceClass.deleteService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:78:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"error","message":"inside controller ,failed response is not defined","stack":"ReferenceError: response is not defined\n    at ServiceClass.deleteService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:78:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"level":"error","message":"inside controller ,failed response is not defined","stack":"ReferenceError: response is not defined\n    at ServiceClass.deleteService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:78:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI3MDUzMH0.k2sBH3JeEXKTqkRO8SS7lGnzD_9pEPehZPgU-y0PBYQ","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI3MDU3MX0.kbsrzKT4ztk75vay_3ZR5rGDaUoWdIEE59chKaTilhY","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643270571,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f251ab87330e02cf6029b7","colour":"#fff","createdAt":"2022-01-27T08:02:51.901Z","description":"Note","isArchived":true,"isDeleted":true,"title":"Testing","updatedAt":"2022-01-27T08:02:51.901Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI3MDU3MX0.kbsrzKT4ztk75vay_3ZR5rGDaUoWdIEE59chKaTilhY","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI3MDYwN30.boAWqEdG3TZ6jH7f6URjBSvNp2nFNI3gbLvifR4HeGc","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deepak@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha0BnbWFpbC5jb20iLCJpZCI6IjYxZjI0NDU4NzhmNTk0YjM2M2UxZTEwYyIsImlhdCI6MTY0MzI3MDcxN30.m3_p-RaQ7u3Vr8Urygd-TteM6Q2M7fqc_cIYw427LA4","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deepak@gmail.com","iat":1643270717,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"deep@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"data":{"email":"deep@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBAZ21haWwuY29tIiwiaWQiOiI2MWYyNTU4YTI5NmI0ZGNiNjMwZjA1OWIiLCJpYXQiOjE2NDMyNzE1ODR9.xCWy4KcRX9L_yTvbtWXSbz0YllOM1Qq06k97hhCEO6k","userId":"61f2558a296b4dcb630f059b"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"failed Incorrect Password","status":401,"success":false}
+{"data":"","level":"error","message":"failed User Not Found","status":404,"success":false}
+{"data":{"email":"deep@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBAZ21haWwuY29tIiwiaWQiOiI2MWYyNTU4YTI5NmI0ZGNiNjMwZjA1OWIiLCJpYXQiOjE2NDMyNzE2MTR9.QprAnr5NUKXJX_Vym92we5DQmSxDnNH3PL5YA9Wwrh8","userId":"61f2558a296b4dcb630f059b"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f255d9296b4dcb630f05a1","colour":"string","createdAt":"2022-01-27T08:20:41.208Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:20:41.208Z","userId":"61f2558a296b4dcb630f059b"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f255d9296b4dcb630f05a1","colour":"string","createdAt":"2022-01-27T08:20:41.208Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:20:41.208Z","userId":"61f2558a296b4dcb630f059b"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee689010","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee689010","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee689010","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee68901","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee68901","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"kind":"ObjectId","level":"error","message":"Error In Finding Notes Cast to ObjectId failed for value \"61f255d9296b4dc\" (type string) at path \"_id\" for model \"Notes\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"61f255d9296b4dc\" (type string) at path \"_id\" for model \"Notes\"\n    at model.Query.exec (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4594:21)\n    at model.Query.Query.then (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\mongoose\\lib\\query.js:4693:15)\n    at C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:55:10\n    at new Promise (<anonymous>)\n    at ModelClass.findNotes (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\model\\NotesModel.js:53:12)\n    at ServiceClass.updateService (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\services\\NotesService.js:46:36)\n    at updateController (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\controller\\NotesController.js:47:8)\n    at Layer.handle [as handle_request] (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at note (C:\\Users\\HP\\Desktop\\Project\\Fundoo_App\\src\\validators\\NotesValidation.js:22:7)","stringValue":"\"61f255d9296b4dc\"","value":"61f255d9296b4dc","valueType":"string"}
+{"data":{"kind":"ObjectId","message":"Cast to ObjectId failed for value \"61f255d9296b4dc\" (type string) at path \"_id\" for model \"Notes\"","name":"CastError","path":"_id","reason":{},"stringValue":"\"61f255d9296b4dc\"","value":"61f255d9296b4dc","valueType":"string"},"level":"error","message":"inside controller ,failed Error In Finding Notes","status":500,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"dee68901","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"#fff","description":"Kumhbar","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"deep","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f255d9296b4dcb630f05a1","colour":"string","createdAt":"2022-01-27T08:20:41.208Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"deep","updatedAt":"2022-01-27T08:37:27.868Z","userId":"61f2558a296b4dcb630f059b"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f255d9296b4dcb630f05a1","colour":"string","createdAt":"2022-01-27T08:20:41.208Z","description":"Kumhbar","isArchived":true,"isDeleted":true,"title":"deep","updatedAt":"2022-01-27T08:37:27.868Z","userId":"61f2558a296b4dcb630f059b"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":"true","isDeleted":"true","level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"string","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":"true","isDeleted":"true","level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"string","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":"true","isDeleted":"true","level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"string","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"string1","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"deep@gmail.com","iat":1643271614,"id":"61f2558a296b4dcb630f059b","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":false,"isDeleted":true,"level":"info","message":{"_id":"61f255d9296b4dcb630f05a1"},"title":"string1","userId":"61f2558a296b4dcb630f059b"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"string@gmail.com","firstName":"string","lastName":"string"},"level":"error","message":"failed Registered Succesfully","status":201,"success":true}
+{"data":{"email":"string@gmail.com","fName":"string","lName":"string","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0cmluZ0BnbWFpbC5jb20iLCJpZCI6IjYxZjI1ZTRhYjQ0NzhkNWM1MWI3YzVkYiIsImlhdCI6MTY0MzI3MzgyOX0.eY2JyXt7lXdSdOSxGZ8qR7H5Lf9Frp-7vSw9Hw-ncz0","userId":"61f25e4ab4478d5c51b7c5db"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:57:51.690Z","userId":"61f25e4ab4478d5c51b7c5db"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:57:51.690Z","userId":"61f25e4ab4478d5c51b7c5db"}],"level":"info","message":"save notes controller  Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f25e8fb4478d5c51b7c5de"},"title":"string","userId":"61f25e4ab4478d5c51b7c5db"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"inside controller successs Note Updated Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":"","level":"info","message":"inside controller successs Note Not Found","status":404,"success":false}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:58:32.194Z","userId":"61f25e4ab4478d5c51b7c5db"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:58:32.194Z","userId":"61f25e4ab4478d5c51b7c5db"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f25ef5b4478d5c51b7c5e6","colour":"string","createdAt":"2022-01-27T08:59:33.752Z","description":"string","isArchived":false,"isDeleted":false,"title":"string","updatedAt":"2022-01-27T08:59:33.752Z","userId":"61f25e4ab4478d5c51b7c5db"},"level":"info","message":"inside controller ,successful  Notes Saved","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:58:32.194Z","userId":"61f25e4ab4478d5c51b7c5db"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e8fb4478d5c51b7c5de","colour":"string","createdAt":"2022-01-27T08:57:51.690Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-27T08:58:32.194Z","userId":"61f25e4ab4478d5c51b7c5db"}],"level":"info","message":"inside controller successs Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":{"deletedCount":1},"level":"info","message":"inside controller successs Note Deleted Successfully","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"successful  Email sent Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643273829,"id":"61f25e4ab4478d5c51b7c5db","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f25e4ab4478d5c51b7c5db","createdAt":"2022-01-27T08:56:42.975Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$cnBEX2LZSo4VPDTPONAwvOObKrFv/XIlLrNR6ETlsPZq5qA1Lc6pm","updatedAt":"2022-01-27T08:56:42.975Z"}],"level":"info","message":"Resetting Password  User Already Exists","status":409,"success":false}
+{"data":{"__v":0,"_id":"61f25e4ab4478d5c51b7c5db","createdAt":"2022-01-27T08:56:42.975Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$MlL0UPG2Dz8Mo5nR2CL1keu.bXutGZv6IqZ.MZGJVDTvgsQYAl5Wm","updatedAt":"2022-01-27T09:02:16.632Z"},"level":"info","message":"successful  Password Updated","status":200,"success":true}
+{"data":{"email":"string@gmail.com","fName":"string","lName":"string","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0cmluZ0BnbWFpbC5jb20iLCJpZCI6IjYxZjI1ZTRhYjQ0NzhkNWM1MWI3YzVkYiIsImlhdCI6MTY0MzI3NDE5MX0.kyiH9k02W0BM7maronUiWPQZ9X24JtOA9q_R7SVgWt8","userId":"61f25e4ab4478d5c51b7c5db"},"level":"info","message":"successful  Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f262f22b6a3e2abacf970f","colour":"#fff","createdAt":"2022-01-27T09:16:34.270Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:16:34.270Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"save notes,successful  Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f2635db28415c5e5eb9c2c","colour":"#fff","createdAt":"2022-01-27T09:18:21.230Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:18:21.230Z","userId":"61f2445878f594b363e1e10c"},"level":"error","message":"save notes,failed Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f263732f26743657fd322c","colour":"#fff","createdAt":"2022-01-27T09:18:43.698Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:18:43.698Z","userId":"61f2445878f594b363e1e10c"},"level":"error","message":"save notes,failed Notes Saved","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f263837c4f0e0a86bab584","colour":"#fff","createdAt":"2022-01-27T09:18:59.139Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:18:59.139Z","userId":"61f2445878f594b363e1e10c"},"level":"error","message":"save notes,failed Notes Saved","status":500,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f263aef9312122ae58d01c","colour":"#fff","createdAt":"2022-01-27T09:19:42.365Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:19:42.365Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"email":"deepak@gmail.com","iat":1643269830,"id":"61f2445878f594b363e1e10c","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f263bbbae6c8bf6dfcd2ca","colour":"#fff","createdAt":"2022-01-27T09:19:55.500Z","description":"Kumhbar","isArchived":false,"isDeleted":true,"title":"dee67","updatedAt":"2022-01-27T09:19:55.500Z","userId":"61f2445878f594b363e1e10c"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f25e4ab4478d5c51b7c5db","createdAt":"2022-01-27T08:56:42.975Z","email":"string@gmail.com","fName":"string","lName":"string","password":" ","updatedAt":"2022-01-27T09:02:16.632Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":{"email":"string@gmail.com","firstName":"string","lastName":"string"},"level":"info","message":"successful  Registered Succesfully","status":201,"success":true}
+{"data":[{"__v":0,"_id":"61f267e38baa06807fc9f904","createdAt":"2022-01-27T09:37:39.560Z","email":"string@gmail.com","fName":"string","lName":"string","password":" ","updatedAt":"2022-01-27T09:37:39.560Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":{"email":"string@gmail.com","fName":"string","lName":"string","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0cmluZ0BnbWFpbC5jb20iLCJpZCI6IjYxZjI2N2UzOGJhYTA2ODA3ZmM5ZjkwNCIsImlhdCI6MTY0MzI3NjMxOH0.jrdRTTy35JDnObA70H46a495Zml598Hu597NUIfhBX0","userId":"61f267e38baa06807fc9f904"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"forgotpassword successful Email sent Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643276318,"id":"61f267e38baa06807fc9f904","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f267e38baa06807fc9f904","createdAt":"2022-01-27T09:37:39.560Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$9e89/.Z2jY0RE7HpYITXl.gC76f74IfL87Yut8m6Fsntc.f/2YOF6","updatedAt":"2022-01-27T09:37:39.560Z"}],"level":"info","message":"Resetting Password  User Already Exists","status":409,"success":false}
+{"_id":"61f267e38baa06807fc9f904","level":"info","message":"Resetting password of userId"}
+{"data":{"__v":0,"_id":"61f267e38baa06807fc9f904","createdAt":"2022-01-27T09:37:39.560Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$Htzjl7FHdIuTgrPyyTVaTu99ABpbqXcA.4ouhqgZDyZCBW6rYhczq","updatedAt":"2022-01-27T09:39:37.350Z"},"level":"info","message":"reset password successful  Password Updated","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"tdeepak@gmail.com","firstName":"MERN","lastName":"MERN"},"level":"info","message":"successful  Registered Succesfully","status":201,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg2ODB9.dQjS9gGNHOadmnMO6L7poNL1ooazhqHtnoiNOY6Qw7A","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg2ODN9.gc9XH7K6SD4Nz2LeFLArK_3bM2HMgU5CtJ0JP-CjOr0","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg3MDN9.PvIjJHf3MeG9imppE-gT5Q4OoU6MDWEmC7xHAuKJJwQ","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg3MDR9.5A79gMgGnzz2l8h2rnXe-ahIbtB7WfAJ1gibf4RBCb8","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg3MDR9.5A79gMgGnzz2l8h2rnXe-ahIbtB7WfAJ1gibf4RBCb8","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg3MDR9.5A79gMgGnzz2l8h2rnXe-ahIbtB7WfAJ1gibf4RBCb8","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":"","level":"error","message":"login failed User Not Found","status":404,"success":false}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg3ODZ9.TQiPSEimjQjLcXBshP5_JWA-DfmdDdN6ns-tolrVumM","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg4MzJ9.PRsm8dtynIOfuDQx1KH67Ic01M7KvT_MqDxH1WOMRXc","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg4MzN9.fvXnS_Jx1Lgb9p3vnM2PUIk_VgiHkgaJtzaulXpJBQQ","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg4MzR9.Xcxe5h8wZZZwXlfi5_7WnOvMln07BGnHWA-_i0KOzPM","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTg4NjZ9.RJHpX3_yZYWd84Vbx0S-_MUxpQA-I0p9ssuu9RahpIU","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNTkwMjJ9.FPVawKzWsou5MhXTBm9hUgWsIpo27JUa1wMeRj8GKGA","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643359022,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[],"level":"info","message":"get notes success Notes Not Found","status":404,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643359022,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[],"level":"info","message":"get notes success Notes Not Found","status":404,"success":false}
+{"email":"tdeepak@gmail.com","iat":1643359022,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643359022,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":{"email":"tdeepak@gmail.com","fName":"MERN","lName":"MERN","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZWVwYWtAZ21haWwuY29tIiwiaWQiOiI2MWYzYTljMGIzMGFlN2ZhMjg5MDE5ZTgiLCJpYXQiOjE2NDMzNjAzMjd9.sFQok_jyERMHbj6UeYivsquQmxTdyG184369of6u0tE","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f3b3c3b30ae7fa28901a03","colour":"black","createdAt":"2022-01-28T09:13:39.686Z","description":"Add text note","isArchived":false,"isDeleted":false,"title":"Titlethird note","updatedAt":"2022-01-28T09:13:39.686Z","userId":"61f3a9c0b30ae7fa289019e8"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b3c3b30ae7fa28901a03","colour":"black","createdAt":"2022-01-28T09:13:39.686Z","description":"Add text note","isArchived":false,"isDeleted":false,"title":"Titlethird note","updatedAt":"2022-01-28T09:13:39.686Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b3c3b30ae7fa28901a03","colour":"black","createdAt":"2022-01-28T09:13:39.686Z","description":"Add text note","isArchived":false,"isDeleted":false,"title":"Titlethird note","updatedAt":"2022-01-28T09:13:39.686Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"email":"tdeepak@gmail.com","iat":1643360327,"id":"61f3a9c0b30ae7fa289019e8","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3b183b30ae7fa289019fa","colour":"black","createdAt":"2022-01-28T09:04:03.986Z","description":"Add textwer","isArchived":false,"isDeleted":false,"title":"Titleert","updatedAt":"2022-01-28T09:04:03.986Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b308b30ae7fa289019ff","colour":"black","createdAt":"2022-01-28T09:10:32.999Z","description":"Add textgr","isArchived":false,"isDeleted":false,"title":"Titlege","updatedAt":"2022-01-28T09:10:32.999Z","userId":"61f3a9c0b30ae7fa289019e8"},{"__v":0,"_id":"61f3b3c3b30ae7fa28901a03","colour":"black","createdAt":"2022-01-28T09:13:39.686Z","description":"Add text note","isArchived":false,"isDeleted":false,"title":"Titlethird note","updatedAt":"2022-01-28T09:13:39.686Z","userId":"61f3a9c0b30ae7fa289019e8"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":{"email":"string@gmail.com","firstName":"string","lastName":"string"},"level":"info","message":"successful  Registered Succesfully","status":201,"success":true}
+{"data":{"email":"string@gmail.com","fName":"string","lName":"string","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN0cmluZ0BnbWFpbC5jb20iLCJpZCI6IjYxZjNiY2YxMDJiNDQzYmQ0OWM5N2Q1MyIsImlhdCI6MTY0MzM2MzU4MH0.TaIP4ppsp9Bmtb8tPjwhJBHc3yyzlQlvhrBLFLgHuTI","userId":"61f3bcf102b443bd49c97d53"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"data":{"__v":0,"_id":"61f3bd0b02b443bd49c97d56","colour":"string","createdAt":"2022-01-28T09:53:15.815Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-28T09:53:15.815Z","userId":"61f3bcf102b443bd49c97d53"},"level":"info","message":"save notes,successful  Notes Saved","status":201,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3bd0b02b443bd49c97d56","colour":"string","createdAt":"2022-01-28T09:53:15.815Z","description":"string","isArchived":true,"isDeleted":true,"title":"string","updatedAt":"2022-01-28T09:53:15.815Z","userId":"61f3bcf102b443bd49c97d53"}],"level":"info","message":"get notes success Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":true,"isDeleted":true,"level":"info","message":{"_id":"61f3bd0b02b443bd49c97d56"},"title":"string","userId":"61f3bcf102b443bd49c97d53"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"update note successs Note Updated Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"color":"string","description":"string","isArchived":true,"isDeleted":false,"level":"info","message":{"_id":"61f3bd0b02b443bd49c97d56"},"title":"string","userId":"61f3bcf102b443bd49c97d53"}
+{"data":{"acknowledged":true,"matchedCount":1,"modifiedCount":1,"upsertedCount":0,"upsertedId":null},"level":"info","message":"update note successs Note Updated Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3bd0b02b443bd49c97d56","colour":"string","createdAt":"2022-01-28T09:53:15.815Z","description":"string","isArchived":true,"isDeleted":false,"title":"string","updatedAt":"2022-01-28T09:54:00.416Z","userId":"61f3bcf102b443bd49c97d53"}],"level":"info","message":"get archived notes,successs Notes Found","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"data":[],"level":"info","message":"get deleted notes Notes Not Found","status":404,"success":false}
+{"level":"info","message":"Sending email to "}
+{"data":"","level":"info","message":"forgotpassword successful Email sent Successfully","status":200,"success":true}
+{"email":"string@gmail.com","iat":1643363580,"id":"61f3bcf102b443bd49c97d53","level":"info","message":" req.body.data "}
+{"data":[{"__v":0,"_id":"61f3bcf102b443bd49c97d53","createdAt":"2022-01-28T09:52:49.349Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$0TgcNdVe196DlbYRs0hdx.lwJ2D2eit2Za.QFtOw7qWkJ4pTuylLq","updatedAt":"2022-01-28T09:52:49.349Z"}],"level":"info","message":"Resetting Password  User Already Exists","status":409,"success":false}
+{"_id":"61f3bcf102b443bd49c97d53","level":"info","message":"Resetting password of userId"}
+{"data":{"__v":0,"_id":"61f3bcf102b443bd49c97d53","createdAt":"2022-01-28T09:52:49.349Z","email":"string@gmail.com","fName":"string","lName":"string","password":"$2b$08$aIgi7BvJJw8UvdWt9r8feeYWCr3imRZz/CzhRFSqDZsVgBt2KmQZW","updatedAt":"2022-01-28T09:55:40.752Z"},"level":"info","message":"reset password successful  Password Updated","status":200,"success":true}
+{"data":{"email":"deepakkumbhar@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"info","message":"successful  Registered Succesfully","status":201,"success":true}
+{"level":"info","message":"listening at port 9000"}
+{"data":[{"__v":0,"_id":"61f3ce8002b443bd49c97d63","createdAt":"2022-01-28T11:07:44.072Z","email":"deepakkumbhar@gmail.com","fName":"deepak","lName":"kumbhar","password":" ","updatedAt":"2022-01-28T11:07:44.072Z"}],"level":"info","message":"successful  User Already Exists","status":409,"success":false}
+{"data":{"email":"deepakkumbhar123@gmail.com","firstName":"deepak","lastName":"deepak"},"level":"info","message":"successful  Registered Succesfully","status":201,"success":true}
+{"data":{"email":"deepakkumbhar123@gmail.com","fName":"deepak","lName":"kumbhar","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlZXBha2t1bWJoYXIxMjNAZ21haWwuY29tIiwiaWQiOiI2MWYzY2VjNGRlZDBlMDczNGY5OGIxNjMiLCJpYXQiOjE2NDMzNjgxNzd9.RliUg_MOT19F7IT68fAX8BwiQSubAeibxUF9JfYUrIw","userId":"61f3cec4ded0e0734f98b163"},"level":"info","message":"successful login Login Successfull","status":200,"success":true}
+{"level":"info","message":"listening at port 9000"}

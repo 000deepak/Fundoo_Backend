@@ -3,7 +3,7 @@
  * @module       service
  * @file         NotesService.js
  * @author       deepak
- * @since        27/12/2022
+ * @since        27/12/2021
  */
 
 //import
@@ -29,31 +29,26 @@ class ServiceClass {
 
   //get notes
   async getNotesService(req) {
-    let query = { userId: req.body.data.id }
+    let query = { userId: req.body.data.id };
     let notesFound = await notesModel.findNotes(query);
     return notesFound;
   }
 
   //update notes
   async updateService(req) {
-
     let response = {
       message: "",
       success: "",
       data: "",
     };
-
-    let query = { id: req.body.noteId };
+    let query = { _id: req.body.noteId };
 
     let oldNote = await notesModel.findNotes(query);
 
-    if (oldNote.data.length>0) {
-  
+    if (oldNote.data.length > 0) {
       var newNote = {
         title: req.body.title ? req.body.title : oldNote.data.title,
-        description: req.body.description
-          ? req.body.description
-          : oldNote.data.description,
+        description: req.body.description ? req.body.description : oldNote.data.description,
         isArchived: req.body.isArchived ? req.body.isArchived : false,
         isDeleted: req.body.isDeleted ? req.body.isDeleted : false,
         color: req.body.color ? req.body.color : oldNote.data.color,
@@ -64,18 +59,30 @@ class ServiceClass {
 
       return data;
     } else {
-      (response.success = false),
-        (response.message = "Note Not Found"),
-        (response.status = 404)
-      return { response };
+      (response.success = false), (response.message = "Note Not Found"), (response.status = 404);
+      return response;
     }
   }
 
   //delete notes
   async deleteService(req) {
-    let query = { id: req.body.noteId };
-    let notesDeleted = await notesModel.deleteModel(query);
-    return notesDeleted;
+    let response = {
+      message: "",
+      success: "",
+      data: "",
+    };
+    let query = { _id: req.body.noteId };
+
+    let oldNote = await notesModel.findNotes(query);
+
+    if (oldNote.data.length > 0) {
+
+      let notesDeleted = await notesModel.deleteModel(query);
+      return notesDeleted;
+    } else {
+      (response.success = false), (response.message = "Note Not Found"), (response.status = 404);
+      return response;
+    }
   }
 
   //archived notes

@@ -1,9 +1,9 @@
 /**
- * @purpose      To forward control to handler fn when given path is hit.
+ * @purpose      To forward control to handler fn when given path matches with url.
  * @module       routes
  * @file         userroutes.js
  * @author       deepak 
- * @since        27/12/2022
+ * @since        27/12/2021
  */
 
 //import

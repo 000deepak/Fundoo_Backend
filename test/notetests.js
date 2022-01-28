@@ -59,7 +59,7 @@ describe("Post /addnotes", () => {
           console.log("Plz check again & enter with proper format");
           return done();
         }
-        response.should.have.status(200);
+        response.should.have.status(201);
         response.body.should.have.property("success").eq(true);
         response.body.should.have.property("message").eq("Notes Saved");
         done();
@@ -108,7 +108,7 @@ describe("get /getnotes", () => {
   beforeEach((done) => {
     chai
       .request(server)
-      .get("/users/login")
+      .post("/users/login")
       .send(data.LoginData)
       .end((err, res) => {
         if (err) {
@@ -123,33 +123,29 @@ describe("get /getnotes", () => {
   });
 
   //Incorrect jwt
-  it("given proper note details When added Should return status 200, success=true", (done) => {
-    const input = data.note;
+  it("given Incorrect jwt When added Should return status 401, success=true", (done) => {
+
     chai
       .request(server)
       .get("/notes/notes")
-      .set({ token: token })
-      .send(input)
+      .set({ token: "asdfgh" })
       .end((err, response) => {
         if (err) {
           console.log("Plz check again & enter with proper format");
           return done();
         }
-        response.should.have.status(200);
-        response.body.should.have.property("success").eq(true);
-        response.body.should.have.property("message").eq("Notes Saved");
+        response.should.have.status(401);
         done();
       });
   });
 
   //correct jwt
-  it("given proper note details When added Should return status 200, success=true", (done) => {
-    const input = data.note;
+  it("given correct jwt When added Should return status 200, success=true", (done) => {
+
     chai
       .request(server)
       .get("/notes/notes")
       .set({ token: token })
-      .send(input)
       .end((err, response) => {
         if (err) {
           console.log("Plz check again & enter with proper format");
@@ -157,7 +153,6 @@ describe("get /getnotes", () => {
         }
         response.should.have.status(200);
         response.body.should.have.property("success").eq(true);
-        response.body.should.have.property("message").eq("Notes Saved");
         done();
       });
   });
@@ -202,7 +197,7 @@ describe("put /updatenotes", () => {
 
   //correct jwt
   it("given correct jwt When added Should return status 200", (done) => {
-    const input = data.noteId1;
+    const input = data.Cid;
     chai
       .request(server)
       .put("/notes/update")
@@ -221,7 +216,7 @@ describe("put /updatenotes", () => {
 
   //correct noteId
   it("given proper correct noteId When added Should return status 200, success=true", (done) => {
-    const input = data.noteId1;
+    const input = data.Cid;
     chai
       .request(server)
       .put("/notes/update")
@@ -240,8 +235,8 @@ describe("put /updatenotes", () => {
   });
 
   //Incorrect noteId
-  it("given Incorrect noteId When added Should return status 500", (done) => {
-    const input = data.noteId2;
+  it("given Incorrect noteId When added Should return status 404", (done) => {
+    const input = data.ICid;
     chai
       .request(server)
       .put("/notes/update")
@@ -252,7 +247,7 @@ describe("put /updatenotes", () => {
           console.log("Plz check again & enter with proper format");
           return done();
         }
-        response.should.have.status(500);
+        response.should.have.status(404);
         response.body.should.have.property("success").eq(false);
         done();
       });
@@ -354,10 +349,10 @@ describe("delete /deletenotes", () => {
 
   //correct noteId
   it("given proper correct noteId When added Should return status 200, success=true", (done) => {
-    const input = data.deleteId;
+    const input = data.Ciddelete;
     chai
       .request(server)
-      .delete("/notes/update")
+      .delete("/notes/delete")
       .set({ token: token })
       .send(input)
       .end((err, response) => {
@@ -373,10 +368,10 @@ describe("delete /deletenotes", () => {
 
   //Incorrect noteId
   it("given Incorrect noteId When added Should return status 404, success=true", (done) => {
-    const input = data.deleteId2;
+    const input = data.ICiddelete;
     chai
       .request(server)
-      .delete("/notes/update")
+      .delete("/notes/delete")
       .set({ token: token })
       .send(input)
       .end((err, response) => {
